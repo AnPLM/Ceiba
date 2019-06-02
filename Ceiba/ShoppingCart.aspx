@@ -1,7 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="Ceiba.Home" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ShoppingCart.aspx.cs" Inherits="Ceiba.ShoppingCart" %>
 
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -11,13 +10,13 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link href="/Home.css" rel="stylesheet" type="text/css" />  
+  <link href="/Cart.css" rel="stylesheet" type="text/css" />  
 </head>
 <body>
 
-    <header class="header">
+     <header class="header">
         <div class="row">
-        <nav class="navbar navbar-inverse">
+      <nav class="navbar navbar-fixed-top navbar-inverse">
           <div class="container-fluid">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -38,12 +37,14 @@
                     <li><a href="#">Plantas</a></li>
                   </ul>
                 </li>
-                <li><a class="font-color" href="#">Acerca</a></li>
+                <li><a class="font-color" href="About.aspx">Acerca</a></li>
                 <li><a class="font-color" href="#">Preguntas</a></li>
                 <li><a class="font-color" href="#">Contacto</a></li>
-                  <li><a href="ShoppingCart.aspx" class="font-color">
+                <li><a href="ShoppingCart.aspx" class="font-color">
           <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
         </a></li>
+                
+                                    
               </ul>
                 <div style="position: absolute; right: 10px";>
                 <form class="navbar-form navbar-left" action="/action_page.php">
@@ -63,27 +64,20 @@
         </nav>
         </div>
     </header>
+    <div>
+        <div class="card">
+            <br/>
+            <p>
 
-    
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <h3>Column 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            </p>
+            <img src="jeans3.jpg" alt="Denim Jeans" style="width: 100%">
+            <h1>Tailored Jeans</h1>
+            <p class="price">$19.99</p>
+            <p>Some text about the jeans..</p>
+            <p>
+                <button>Add to Cart</button>
+            </p>
         </div>
-        <div class="col-sm-4">
-          <h3>Column 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-        </div>
-        <div class="col-sm-4">
-          <h3>Column 3</h3>        
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-        </div>
-      </div>
-   </div>
+    </div>
 </body>
 </html>
-

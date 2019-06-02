@@ -25,15 +25,7 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav">
-                
-                <li class="dropdown">
-                  <a class="dropdown-toggle font-color" data-toggle="dropdown" href="#">Productos<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Jardinería</a></li>
-                    <li><a href="#">Adornos</a></li>
-                    <li><a href="#">Plantas</a></li>
-                  </ul>
-                </li>
+                <li><a class="font-color" href="Home.aspx">Productos</a></li>
                 <li><a class="font-color" href="About.aspx">Acerca</a></li>
                 <li><a class="font-color" href="#">Preguntas</a></li>
                 <li><a class="font-color" href="#">Contacto</a></li>
@@ -55,37 +47,41 @@
           </div>
         </nav>
     <div class="container">
-
- 
-
-
-
-
-
-
-
-        <div class="row">
-    <div class="col-sm-6 about-panel" style="background-color:lavender;">
-        <h2 class="font-style" >Acerca de nosotros</h2>
+         <div class="row">
+            <div class="col-sm-6 about-panel" style="background-color:lavender;">
+                <h2 class="font-style" >Acerca de nosotros</h2>
                 <p class="font-style " style="font-size:3.5vh;">Somos una empresa dedicada a la venta de diferentes tipos de especies de flora que existen en el país, 
-                nuestra finalidad es que los clientes puedan adquirir gran variedad de plantas exclusivas y llamativas</p>
+                        nuestra finalidad es que los clientes puedan adquirir gran variedad de plantas exclusivas y llamativas</p>
+            </div>
+            <div class="col-sm-6 panel-1" style="background-color:lavenderblush;"></div>
+         </div>
+         <div class="row">
+            <div class="col-sm-6  panel-2" style="background-color:lavender;"></div>
+            <div class="col-sm-6 mission-panel" style="background-color:lavenderblush;">
+               <h2 class="font-style" >Misión</h2>
+               <p class="font-style " style="font-size:3.5vh;">Ofrecer a nuestros clientes una amplia gama de especies en flora y productos de calidad, 
+                                exclusivos y al mejor precio que les permita embellecer sus hogares y jardines. </p>
+            </div>
+         </div>
+       </div>
+    </br>
+    </br>
+    <footer style="background-color:#3C3A3A; height:250px; " class="">
+    <div class="container-fluid text-center text-md-left" style="color:white;">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <h5 style="font-size:18px; margin-top:50px; color:white;">Gracias por visitar nuestro sitio</h5>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil
+          repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae
+          harum esse fugiat. Itaque, culpa?</p>
+      </div>
     </div>
-    <div class="col-sm-6 panel-1" style="background-color:lavenderblush;"></div>
   </div>
-   <div class="row">
-    <div class="col-sm-6  panel-2" style="background-color:lavender;"></div>
-    <div class="col-sm-6 mission-panel" style="background-color:lavenderblush;">
-        <h2 class="font-style" >Misión</h2>
-                <p class="font-style " style="font-size:3.5vh;">Ofrecer a nuestros clientes una amplia gama de especies en flora y productos de calidad, 
-                    exclusivos y al mejor precio que les permita embellecer sus hogares y jardines. </p>
-    </div>
-   
-</div>
+  <div style="color:white;" class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href=""> Ceiba</a>
+  </div>
 
-
-
-
-       
+</footer>
 </body>
 
  

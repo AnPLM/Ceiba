@@ -1,17 +1,127 @@
-﻿.header {
-    background: url(/Imagenes/Home1.jpg) no-repeat center;
+﻿.body {
+    background: #EFEFEF;
+}
+
+.header {
+    background: url(/Imagenes/x.png) no-repeat center;
     background-size: cover;
     min-height: 90vh;
 }
 
     .header .navbar {
-        background-color: transparent !important;
+        /* background-color: transparent !important;*/
+        background: url(/Imagenes/Navbar2.png) no-repeat center;
         border: 0;
         font-size: 18px;
-        
         /*color: white;*/
     }
 
 .font-color {
     color: white !important;
 }
+
+.font-style {
+    font-family: Amelia;
+    font-weight: 400;
+    text-align: center;
+}
+
+.img-size {
+    display:block; 
+    margin:auto;
+}
+
+
+.li.select:hover {
+    color: #444645;
+    background: #ddd;
+}
+
+.dropdown-item:hover {
+    background-color: midnightblue !important;
+}
+
+.description-products {
+    font-family: Amelia;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.price {
+    font-family: Amelia;
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer {
+    position: relative;
+    height: 200px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #393838;
+    color: white;
+    text-align: center;
+}
+
+.button-style {
+    background-color:#002052 !important;
+    border: 0px;
+}
+
+.background-1 {
+    background-image: url(/Imagenes/complementos.png) !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.background-2 {
+    background-image: url(/Imagenes/z.png) !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .background-2 {
+        background-image: url(/Imagenes/z.png) !important;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 600px;
+    }
+ 
+}
+
+@media (max-width: 768px) {
+    .background-1 {
+        background-image: url(/Imagenes/complementos.png) !important;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 500px;
+    }
+
+    .parent {
+        text-align: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 50%;
+        height: 30%;
+        margin: auto;
+    }
+
+    .child {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+

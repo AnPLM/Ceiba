@@ -16,7 +16,6 @@
 <body>
 
     <header class="header">
-        <div class="row">
         <nav class="navbar navbar-inverse">
           <div class="container-fluid">
             <div class="navbar-header">
@@ -42,8 +41,9 @@
                 <li><a class="font-color" href="#">Preguntas</a></li>
                 <li><a class="font-color" href="#">Contacto</a></li>
                   <li><a href="ShoppingCart.aspx" class="font-color">
-          <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
-        </a></li>
+                        <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
+                    </a>
+                  </li>
               </ul>
                 <div style="position: absolute; right: 10px";>
                 <form class="navbar-form navbar-left" action="/action_page.php">
@@ -61,7 +61,6 @@
             </div>
           </div>
         </nav>
-        </div>
     </header>
 
     

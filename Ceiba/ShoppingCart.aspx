@@ -121,13 +121,13 @@
                     <tr>
                         <th>Nombre</th>
                        <!-- <th>Precio por unidad</th>
-                        <th>Cantidad</th>
-                        <th>Eliminar Plato</th> -->
+                        <th>Cantidad </th>
+                        <th>Eliminar  Plato</th> -->
                     </tr>
                 </thead>    
                 <tbody id="list"></tbody>
             </table>
-            <p id="tot" class="text-right"><span id="total"></span></p>
+            <p id="tot" class= "text-right"><span id="total"></span></p>
            <!-- <p id="tot" class="text-right">Total: ₡ <span id="total"></span></p> -->
             <!--button onclick="cargar()"> Finalizar Compra </button-->
             <button onclick="cargar()" class="btn btn-primary btn-block  btn-responsive center-block margin-botton-panel">Finalizar Compra</button>

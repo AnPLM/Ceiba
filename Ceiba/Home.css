@@ -1,18 +1,22 @@
 ﻿.header {
-    background: url(/Imagenes/Home1.jpg) no-repeat center;
+    background: url(/Imagenes/Inicio.jpg) no-repeat center;
+    opacity: 0.8;
     background-size: cover;
-    min-height: 90vh;
+    min-height: 100vh;
 }
 
     .header .navbar {
         background-color: transparent !important;
-        border: 0;
-        font-size: 18px;
-        margin-left: 10px;
-        margin-right: 10px;
-        /*color: white;*/
+        font-size: 25px;
+        color: white;
     }
 
-.font-color {
+
+
+.navbar .navbar-nav {
+    margin: 0 auto;
+}
+
+.navbar .nav-item a {
     color: white !important;
 }

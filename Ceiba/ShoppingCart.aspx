@@ -43,7 +43,7 @@
                 <li><a class="font-color" href="About.aspx">Acerca</a></li>
                 <li><a class="font-color" href="#">Preguntas</a></li>
                 <li><a class="font-color" href="#">Contacto</a></li>
-                <li><a <!--onclick="cargar()"--> href="ShoppingCart.aspx" class="font-color">
+                <li><a href="ShoppingCart.aspx" class="font-color">
           <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
         </a></li>
                 
@@ -82,14 +82,14 @@
             </p>
         </div -->
         <!--Experimento nabvaraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
-    <nav class="navbar navbar-inverse">
+    <!-- <nav class="navbar navbar-inverse">
         <div class="container-fluid">
 
             <ul class="nav navbar-nav">
                 <li class="active"><a href="ClienteMenu.html">Inicio</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <!-- Nav a la derecha del logout-->
+                <!-- Nav a la derecha del logout--><!--
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" id="drpUsuario" href="#">
                     </a>
@@ -110,8 +110,8 @@
                 </li>
             </ul>
         </div>
-    </nav>
-    <div class="container">
+    </nav> -->
+    <div class="container" >
         <!--Experimento nabvar aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
        
         <div class="container col-sm-6 margin-left">
@@ -120,14 +120,15 @@
                 <thead>
                     <tr>
                         <th>Nombre</th>
-                        <th>Precio por unidad</th>
+                       <!-- <th>Precio por unidad</th>
                         <th>Cantidad</th>
-                        <th>Eliminar Plato</th>
+                        <th>Eliminar Plato</th> -->
                     </tr>
                 </thead>    
                 <tbody id="list"></tbody>
             </table>
-            <p class="text-right">Total: ₡ <span id="total"></span></p>
+            <p id="tot" class="text-right"><span id="total"></span></p>
+           <!-- <p id="tot" class="text-right">Total: ₡ <span id="total"></span></p> -->
             <!--button onclick="cargar()"> Finalizar Compra </button-->
             <button onclick="cargar()" class="btn btn-primary btn-block  btn-responsive center-block margin-botton-panel">Finalizar Compra</button>
         </div>

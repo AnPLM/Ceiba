@@ -7,10 +7,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Ceiba</title>
     <meta charset="utf-8">
+    <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="carrito.js"></script>
   <link href="/Home.css" rel="stylesheet" type="text/css" />  
 </head>
 <body class="body">
@@ -24,7 +27,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>                        
               </button>
-              <a class="navbar-brand font-color" style="font-size:28px;" href="">Ceiba</a>
+              <a class="navbar-brand font-color" style="font-size:28px;" href="Home.aspx">Ceiba</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav">
@@ -68,14 +71,14 @@
     <div class="container">
       <!-- Plantas pequeñas -->
    <a name="tema1"></a>
-        </br>
+        <br>
       <div class="row">
         <div class="col-sm-4">
           <h2 class="font-style" >Cactus Globo</h2>
           <img  src="/Imagenes/CatusGloboso.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"> 
           <p class="description-products">Cactus verde con flores blancas</p> 
           <p class="price">₡3500</p> 
-            <div class="text-center"><button type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
+            <div class="text-center"><button onclick="add('Cactus verde con flores blancas', '/Imagenes/CatusGloboso.jpg','3500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
         </div>
 
         <div class="col-sm-4">
@@ -83,7 +86,7 @@
           <img  src="/Imagenes/Suculenta.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"> 
           <p class="description-products">Suculenta verde claro</p> 
           <p class="price">₡3500</p>
-            <div class="text-center"><button type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
+            <div class="text-center"><button onclick="add('Suculenta verde claro', '/Imagenes/Suculenta.jpg', '3500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
         </div>
 
         <div class="col-sm-4">
@@ -91,17 +94,17 @@
           <img  src="/Imagenes/Ginura.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"> 
           <p class="description-products">Ginura marrón con pintas negras</p>
           <p class="price">₡3500</p>  
-            <div class="text-center"><button type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
+            <div class="text-center"><button onclick="add('Ginura marron con pintas negras','/Imagenes/Ginura.jpg','3500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
         </div>
       </div>
-        </br>
+        <br>
          <div class="row">
         <div class="col-sm-4">
           <h2 class="font-style" >Drácena</h2>
           <img  src="/Imagenes/peque1.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"> 
           <p class="description-products">Cactus verde con flores blancas</p> 
           <p class="price">₡3500</p>
-            <div class="text-center"><button type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
+            <div class="text-center"><button onclick="add('Cactus verde con flores blancas','/Imagenes/peque1.jpg', '3500' )" type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
         </div>
 
         <div class="col-sm-4">
@@ -109,7 +112,7 @@
           <img  src="/Imagenes/peque2.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"> 
           <p class="description-products">Suculenta rosado claro</p>
           <p class="price">₡3500</p>  
-            <div class="text-center"><button type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
+            <div class="text-center"><button onclick="add('Suculenta rosado claro','/Imagenes/peque2.jpg','3500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
         </div>
 
         <div class="col-sm-4">
@@ -118,18 +121,18 @@
             <a name="arreglos"></a>
             <p class="description-products">Ginura marrón con pintas negras</p>
           <p class="price">₡3500</p>  
-            <div class="text-center"><button type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
+            <div class="text-center"><button onclick="add('Ginura Marron con pintas negras','/Imagenes/peque3.jpg','3500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
         </div>
       </div>
          <a name="arreglos"></a>
-      </br>
-      </br>
+      <br>
+      <br>
        
       <!-- Imagen fondo fijo -->
       <div class="col-md-12 background-2" style=" min-height:300px; background-attachment: fixed;">
       </div>
-        </br>
-        </br>
+        <br>
+        <br>
       <!-- Arreglos -->
         <div class="row">
         <div class="col-sm-4">
@@ -139,7 +142,7 @@
               naranjas y rojas
           </p> 
             <p class="price">₡8500</p>
-            <div class="text-center"><button type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
+            <div class="text-center"><button onclick="add('Arreglo de Flores naranjas y rojas','/Imagenes/Ro1.jpg','8500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
         </div>
 
         <div class="col-sm-4">
@@ -147,7 +150,7 @@
           <img  src="/Imagenes/Ro2.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"> 
           <p class="description-products">Arreglo de flores rojas pequeñas</p> 
             <p class="price">₡6500</p>
-            <div class="text-center"><button type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
+            <div class="text-center"><button onclick="add('Arreglo de flores rojas pequenas','/Imagenes/Ro2.jpg','6500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
         </div>
 
         <div class="col-sm-4">
@@ -155,11 +158,11 @@
           <img  src="/Imagenes/Ro3.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"> 
           <p class="description-products">Arreglo de flores rojas grandes</p>
             <p class="price">₡7500</p>
-            <div class="text-center"><button type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
+            <div class="text-center"><button onclick="add('Arreglo de flores rojas grandes','/Imagenes/Ro3.jpg','7500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
         </div>
       </div>
-        </br>
-        </br>
+        <br>
+        <br>
         <div class="row">
         <div class="col-sm-4">
           <h2 class="font-style" >Aneto</h2>
@@ -168,7 +171,7 @@
               naranjas, amarillas y rosadas
           </p> 
             <p class="price">₡8500</p>
-            <div class="text-center"><button type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
+            <div class="text-center"><button onclick="add('Arreglo de flores naranjas amarillas y rosadas','/Imagenes/Flor4.jpg','8500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
         </div>
 
         <div class="col-sm-4">
@@ -176,7 +179,7 @@
           <img  src="/Imagenes/Flor5.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"> 
           <p class="description-products">Arreglo de flores blancas</p> 
             <p class="price">₡6500</p>
-            <div class="text-center"><button type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
+            <div class="text-center"><button onclick="add('Arreglo de flores blancas','/Imagenes/Flor5.jpg','6500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
         </div>
 
         <div class="col-sm-4">
@@ -185,13 +188,13 @@
           <p class="description-products">Arreglo de flores rojas y naranjas</p>
              <a name="complementos"></a>
             <p class="price">₡7500</p>
-            <div class="text-center"><button type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
+            <div class="text-center"><button onclick="add('Arreglo de flores rojas y naranjas','/Imagenes/Flor6.jpg','6500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
         </div>
       </div>
-    </br>
-     </br>
+    <br>
+    <br>
      
-    </br>
+    <br>
        
          <!-- Imagen fondo fijo -->
       <div class="col-md-12 background-1" style=" min-height:300px; background-attachment: fixed;">
@@ -203,7 +206,7 @@
           <img  src="/Imagenes/Abono1.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"> 
           <p class="description-products">Abono en trozos grandes</p> 
           <p class="price">₡5500</p>
-          <div class="text-center"><button type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
+          <div class="text-center"><button onclick="add('Abono en trozos grandes','/Imagenes/Abono1.png','5500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
         </div>
 
         <div class="col-sm-4">
@@ -211,7 +214,7 @@
           <img  src="/Imagenes/Abono6.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"> 
           <p class="description-products">Saco de abono orgánico</p> 
           <p class="price">₡12000</p>
-          <div class="text-center"><button type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
+          <div class="text-center"><button onclick="add('Saco de abono organico','/Imagenes/Abono6.png','12000')" type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
         </div>
 
         <div class="col-sm-4">
@@ -219,18 +222,18 @@
           <img  src="/Imagenes/Abono2.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"> 
           <p class="description-products">Abono molido</p> 
           <p class="price">₡4500</p>
-          <div class="text-center"><button type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
+          <div class="text-center"><button onclick="add('Abono molido','/Imagenes/Abono2.png','4500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
         </div>
       </div>
-        </br>
-        </br>
+        <br>
+        <br>
         <div class="row">
         <div class="col-sm-4">
           <h2 class="font-style" >Carretillo</h2>
           <img  src="/Imagenes/herramienta1.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"> 
           <p class="description-products">Carretillo celeste</p> 
           <p class="price">₡5500</p>
-          <div class="text-center"><button type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
+          <div class="text-center"><button onclick="add('Carretillo Celeste','/Imagenes/herramienta1.png','5500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
         </div>
 
         <div class="col-sm-4">
@@ -238,7 +241,7 @@
           <img  src="/Imagenes/herramienta2.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"> 
           <p class="description-products">Palillas de mango negro con verde</p> 
           <p class="price">₡12000</p>
-          <div class="text-center"><button type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
+          <div class="text-center"><button onclick="add('Palillas de mango negro con verde','/Imagenes/herramienta2.png','12000')" type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
         </div>
 
         <div class="col-sm-4">
@@ -246,12 +249,12 @@
           <img  src="/Imagenes/herramienta3.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"> 
           <p class="description-products">Kit de jardinería celeste</p> 
           <p class="price">₡4500</p>
-          <div class="text-center"><button type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
+          <div class="text-center"><button onclick="add('Kit de jardineria celeste','/Imagenes/herramienta3.png','4500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button></div>
         </div>
       </div>
    </div>
-    </br>
-    </br>
+    <br>
+    <br>
 
         <!-- Carrusel -->
     <div class="container">
@@ -309,4 +312,5 @@
 
 
 </html>
+
 

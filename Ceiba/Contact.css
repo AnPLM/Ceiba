@@ -1,0 +1,42 @@
+﻿
+.col-sm-6 {
+    min-height: 600px;
+    
+}
+
+.border-panel {
+    border-color: #C6C6C9 !important;
+}
+
+.border-header {
+    border-color: #C6C6C9 !important;
+}
+
+.h2 {
+    color: black !important;
+}
+
+.bg-color-panel {
+    background-color: #DEDEE3 !important;
+}
+
+
+.title-panel {
+    text-align: left;
+    font-size: 3vh;
+    font-size: 15px;
+    color: black;
+    /*color: #4A4A4A;*/
+}
+
+/*.panel-heading border-header bg-color-panel {
+    background-color: #F5F5F5 !important;
+    border-color: lightgrey;
+}*/
+
+
+
+.info {
+    padding:35px;
+    text-align:center;
+}

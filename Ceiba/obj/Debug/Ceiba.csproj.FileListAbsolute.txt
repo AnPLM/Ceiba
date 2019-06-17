@@ -29,7 +29,6 @@ C:\Users\Angie\Source\Repos\Ceiba\Ceiba\bin\roslyn\VBCSCompiler.exe
 C:\Users\Angie\Source\Repos\Ceiba\Ceiba\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Angie\Source\Repos\Ceiba\Ceiba\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Angie\Source\Repos\Ceiba\Ceiba\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Angie\Source\Repos\Ceiba\Ceiba\obj\Debug\Ceiba.csprojAssemblyReference.cache
 C:\Users\Angie\Source\Repos\Ceiba\Ceiba\obj\Debug\Ceiba.csproj.CoreCompileInputs.cache
 C:\Users\Angie\Source\Repos\Ceiba\Ceiba\obj\Debug\Ceiba.csproj.CopyComplete
 C:\Users\Angie\Source\Repos\Ceiba\Ceiba\obj\Debug\Ceiba.dll
@@ -106,3 +105,4 @@ C:\Users\Adan\Source\Repos\Ceiba4\Ceiba\obj\Debug\Ceiba.csproj.CoreCompileInputs
 C:\Users\Adan\Source\Repos\Ceiba4\Ceiba\obj\Debug\Ceiba.csproj.CopyComplete
 C:\Users\Adan\Source\Repos\Ceiba4\Ceiba\obj\Debug\Ceiba.dll
 C:\Users\Adan\Source\Repos\Ceiba4\Ceiba\obj\Debug\Ceiba.pdb
+C:\Users\Angie\Source\Repos\Ceiba\Ceiba\obj\Debug\Ceiba.csprojAssemblyReference.cache

@@ -141,5 +141,13 @@
         background-position: center;
         background-size: 600px;
     }
+
+    
+}
+
+@media (max-width: 767px) {
+    search-center {
+        display: none !important;
+    }
 }
 

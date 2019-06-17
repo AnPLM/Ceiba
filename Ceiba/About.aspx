@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li><a class="font-color" href="Home.aspx">Productos</a></li>
-                    <li><a class="font-color" href="About.aspx">Acerca</a></li>
+                    <li><a class="font-color" href="About.aspx">Sobre nosotros</a></li>
                     <li><a class="font-color" href="#">Preguntas</a></li>
                     <li><a class="font-color" href="Contact.aspx">Contacto</a></li>
                 </ul>

@@ -21,6 +21,17 @@
             height: 400px;
             background-color: grey;
         }
+        @media (max-width: 767px) {
+            div.search-center {
+                display: none !important;
+            }
+        }
+
+         @media (min-width: 767px) {
+            div.search-nav {
+                display: none !important;
+            }
+        }
     </style>
 </head>
 <body class="body">
@@ -50,12 +61,13 @@
                         <li><a class="font-color" href="About.aspx">Sobre nosotros</a></li>
                         <li><a class="font-color" href="#">Preguntas</a></li>
                         <li><a class="font-color" href="Contact.aspx">Contacto</a></li>
-                        <li><a href="ShoppingCart.aspx" class="font-color">
-                            <span class="glyphicon glyphicon-shopping-cart"></span>Shopping Cart
-                        </a>
-                        </li>
+                        <!--<li><a href="ShoppingCart.aspx" class="font-color" style="float: right !important;">
+                            <span class="glyphicon glyphicon-shopping-cart"></span></a>
+                        </li>-->
                     </ul>
-                    <div style="position: absolute; right: 10px;">
+                    <a href="ShoppingCart.aspx" class="font-color" style="float: right !important;margin-top: 13px; margin-right:15px !important;">
+                            <span class="glyphicon glyphicon-shopping-cart"></span></a>
+                    <div class="search-nav" style="position: absolute; right: 10px;">
                         <form class="navbar-form navbar-left" action="/action_page.php">
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Search" name="search">
@@ -86,16 +98,16 @@
         <br />
         <br />
         <br />
-        <div class="col-md-6 col-md-offset-3">
-            <form class="navbar-form navbar-left" action="/action_page.php">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search" name="search" style=" height: 40px;">
-                    <div class="input-group-btn">
-                        <button class="btn btn-default" type="submit" style="height: 40px; 
-        font-size: 16px;
-        font-weight: 300;">
-                            <i class="glyphicon glyphicon-search"></i>
-                        </button>
+        <div class="col-md-6 col-md-offset-3 search-center">
+            <form class="search-center" action="/action_page.php">
+                <div class="search-center" id="custom-search-input">
+                    <div class="search-center input-group col-md-12">
+                        <input type="text" class="form-control input-lg" placeholder="Buscar" />
+                        <span class="input-group-btn">
+                            <button class="btn btn-default btn-lg" type="button">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </span>
                     </div>
                 </div>
             </form>

@@ -69,7 +69,10 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="About.css" />
+    <Content Include="carrito.js" />
     <Content Include="Cart.css" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Contact.css" />
     <Content Include="Home.aspx" />
     <Content Include="Home.css" />
     <Content Include="jeans3.jpg" />
@@ -83,6 +86,13 @@
     </Compile>
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>

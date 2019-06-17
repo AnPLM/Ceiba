@@ -14,9 +14,10 @@
 }
 
 .about-panel {
-    background-color: #FFFFFF !important;
+    background-color: /*#FFFFFF #FFF5EE */ #163244 !important;
     min-height: 350px;
-    color: #173742 !important;
+    /*color: #173742 !important;*/
+    color: #FFF1DD !important;
 }
 
 .mission-panel {
@@ -38,8 +39,11 @@
 
 .panel-1 {
     min-height: 350px;
-    background: url(/Imagenes/12.png);
-    background-size: cover;
+    background: url(/Imagenes/Logo.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-color:white;
+    /*background-size: cover;*/
 }
 
 .panel-2 {

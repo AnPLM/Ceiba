@@ -44,7 +44,7 @@
                 <li><a class="font-color" href="#">Preguntas</a></li>
                 <li><a class="font-color" href="#">Contacto</a></li>
                   <li><a href="ShoppingCart.aspx" class="font-color">
-                        <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
+                        <span class="glyphicon glyphicon-shopping-cart"></span> 
                     </a>
                   </li>
               </ul>

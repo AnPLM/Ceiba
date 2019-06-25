@@ -28,7 +28,7 @@
                     <li><a class="font-color" href="Home.aspx">Productos</a></li>
                     <li><a class="font-color" href="About.aspx">Sobre nosotros</a></li>
                     <li><a class="font-color" href="#">Preguntas</a></li>
-                    <li><a class="font-color" href="Contact.aspx">Contacto</a></li>
+                    <li><a class="font-color" href="CeibaContact.aspx">Contacto</a></li>
                 </ul>
                 <div class="float-right">
                     <form class="navbar-form navbar-left" action="/action_page.php">

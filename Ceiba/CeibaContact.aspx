@@ -1,17 +1,17 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Ceiba.Contact" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CeibaContact.aspx.cs" Inherits="Ceiba.CeibaContact" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Contacto</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link href="/Contact.css" rel="stylesheet" type="text/css" />
-    <!--link href="/About.css" rel="stylesheet" type="text/css" /-->
 </head>
 <body class="body">
     <header class="header">
@@ -38,7 +38,7 @@
                         </li>
                         <li><a class="font-color" href="About.aspx">Sobre nosotros</a></li>
                         <li><a class="font-color" href="#">Preguntas</a></li>
-                        <li><a class="font-color" href="Contact.aspx">Contacto</a></li>
+                        <li><a class="font-color" href="CeibaContact.aspx">Contacto</a></li>
                         <li><a href="ShoppingCart.aspx" class="font-color">
                             <span class="glyphicon glyphicon-shopping-cart"></span>Shopping Cart
                         </a>
@@ -145,4 +145,3 @@
 
 
 </html>
-

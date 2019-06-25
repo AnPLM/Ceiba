@@ -3,6 +3,12 @@
     min-height: 600px;
     
 }
+.navbar {
+    background: url(/Imagenes/Navbar2.png) no-repeat center;
+    border: 0;
+    font-size: 18px;
+    /*color: white;*/
+}
 
 .border-panel {
     border-color: #C6C6C9 !important;

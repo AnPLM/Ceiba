@@ -125,3 +125,29 @@
 }
 
 
+.background-3 {
+    background-image: url(/Imagenes/SobreNosotros.png) !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .background-3 {
+        background-image: url(/Imagenes/SobreNosotros.png) !important;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 600px;
+    }
+
+    
+}
+
+@media (max-width: 767px) {
+    search-center {
+        display: none !important;
+    }
+}
+

@@ -44,7 +44,7 @@
                 <li><a class="font-color" href="#">Preguntas</a></li>
                 <li><a class="font-color" href="#">Contacto</a></li>
                 <li><a href="ShoppingCart.aspx" class="font-color">
-          <span class="glyphicon glyphicon-shopping-cart"></span> 
+          <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
         </a></li>
                 
                                     
@@ -114,7 +114,7 @@
     <div class="container" >
         <!--Experimento nabvar aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
        
-        <div onload="cargar()" class="container col-sm-6 margin-left">
+        <div class="container col-sm-6 margin-left">
             <h2>Carrito de Compras</h2>
             <table class="table table-bordered table-responsive-md table-striped text-center" id="tablaCarrito">
                 <thead>

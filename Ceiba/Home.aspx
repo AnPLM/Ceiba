@@ -15,6 +15,8 @@
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="carrito.js"></script>
     <link href="/Home.css" rel="stylesheet" type="text/css" />
+  <link href="/Cart.css" rel="stylesheet" type="text/css" />
+
     <style>
         #map {
             width: 100%;
@@ -79,13 +81,9 @@
                             </div>
                         </form>
                     </div>
-
                 </div>
             </div>
         </nav>
-
-
-
         <br />
         <br />
         <br />

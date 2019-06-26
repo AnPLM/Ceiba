@@ -10,6 +10,6 @@
 namespace Ceiba {
     
     
-    public partial class ShoppingCart {
+    public partial class Questions {
     }
 }

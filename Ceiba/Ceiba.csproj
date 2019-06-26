@@ -77,6 +77,8 @@
     <Content Include="Home.aspx" />
     <Content Include="Home.css" />
     <Content Include="jeans3.jpg" />
+    <Content Include="Questions.aspx" />
+    <Content Include="Questions.css" />
     <Content Include="ShoppingCart.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -110,6 +112,13 @@
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Questions.aspx.cs">
+      <DependentUpon>Questions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Questions.aspx.designer.cs">
+      <DependentUpon>Questions.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ShoppingCart.aspx.cs">
       <DependentUpon>ShoppingCart.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

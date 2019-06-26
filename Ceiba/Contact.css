@@ -1,4 +1,17 @@
-﻿
+﻿.body {
+    background-color: #EFEFEF !important;
+}
+
+.navbar {
+    background: url(/Imagenes/Navbar2.png) no-repeat center;
+    border: 0;
+    font-size: 18px;
+    /*color: white;*/
+}
+
+.font-color {
+    color: white !important;
+}
 .col-sm-6 {
     min-height: 600px;
     

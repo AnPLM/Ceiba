@@ -18,6 +18,7 @@
 }
 
 .card button {
+    float: right;
     border: none;
     outline: 0;
     padding: 12px;
@@ -31,16 +32,44 @@
 
     .card button:hover {
         opacity: 0.7;
+        float: right;
     }
 
 .navbar {
     /* background: url(/Imagenes/Navbar.png) no-repeat center;*/
     border: 0;
     font-size: 18px;
-    /color: white;
-    / /
+    color: white;
+    
 }
 
 .font-color {
     color: white !important;
 }
+
+.btn.btn-block {
+    background-color: #e0e0e0;
+    color: black;
+    /*font-weight:bold;*/
+    font-size: 15px;
+}
+
+    .btn.btn-block:hover {
+        background-color: #CACACA;
+        color: black;
+        /*font-weight:bold;*/
+        font-size: 15px;
+    }
+
+.btn.btn-success.btn-block {
+    background-color: #96183a;
+    border: none;
+    color: white !important;
+    /*font-weight:bold;*/
+    font-size: 15px;
+}
+
+    .btn.btn-success.btn-block:hover {
+        background-color: #333333;
+        border: none;
+    }

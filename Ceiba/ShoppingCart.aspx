@@ -60,50 +60,8 @@
         </nav>
         </div>
     </header>
-    <div>
-        <!--div class="card">
-            <br/>
-            <p>
 
-            </p>
-            <img src="jeans3.jpg" alt="Denim Jeans" style="width: 100%">
-            <h1>Tailored Jeans</h1>
-            <p class="price">$19.99</p>
-            <p>Some text about the jeans..</p>
-            <p>
-                <button>Add to Cart</button>
-            </p>
-        </div -->
-        <!--Experimento nabvaraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
-    <!-- <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="ClienteMenu.html">Inicio</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <!-- Nav a la derecha del logout--><!--
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" id="drpUsuario" href="#">
-                    </a>
-                    <ul class="dropdown-menu navbar-right">
-                        <li>
-                            <a href="ActualizarDatosCliente.html">
-                                <span class="glyphicon glyphicon-user"></span>
-                                Cuenta
-                            </a>
-                        </li>
-                        <li>
-                            <a onclick="cerrarSesion()">
-                                <span class="glyphicon glyphicon-log-in"></span>
-                                Cerrar cuenta
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </nav> -->
+    
     <div class="container" >
         <!--Experimento nabvar aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
        
@@ -126,7 +84,7 @@
             <button onclick="cargar()" class="btn btn-primary btn-block  btn-responsive center-block margin-botton-panel">Finalizar Compra</button>
         </div>
     </div>
-    </div>
+ 
 
     <script src='/carrito.js'></script>
     <script src='carrito.js'></script>

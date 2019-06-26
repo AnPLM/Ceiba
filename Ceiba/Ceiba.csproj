@@ -71,6 +71,7 @@
     <Content Include="About.css" />
     <Content Include="carrito.js" />
     <Content Include="Cart.css" />
+    <Content Include="CeibaContact.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Contact.css" />
     <Content Include="Home.aspx" />
@@ -88,6 +89,13 @@
     </Compile>
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CeibaContact.aspx.cs">
+      <DependentUpon>CeibaContact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CeibaContact.aspx.designer.cs">
+      <DependentUpon>CeibaContact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>

@@ -10,7 +10,7 @@
 namespace Ceiba {
     
     
-    public partial class Contact {
+    public partial class CeibaContact {
         
         /// <summary>
         /// Control form1.

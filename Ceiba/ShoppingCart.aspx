@@ -32,14 +32,7 @@
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav">
                 
-                <li class="dropdown">
-                  <a class="dropdown-toggle font-color" data-toggle="dropdown" href="#">Productos<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Jardinería</a></li>
-                    <li><a href="#">Adornos</a></li>
-                    <li><a href="#">Plantas</a></li>
-                  </ul>
-                </li>
+                <li><a class="font-color" href="Home.aspx">Productos</a></li>
                 <li><a class="font-color" href="About.aspx">Acerca</a></li>
                 <li><a class="font-color" href="#">Preguntas</a></li>
                 <li><a class="font-color" href="#">Contacto</a></li>

@@ -1,0 +1,42 @@
+﻿.body {
+    background-color: #EFEFEF !important;
+}
+
+.navbar {
+    background: url(/Imagenes/Navbar2.png) no-repeat center;
+    border: 0;
+    font-size: 18px;
+    /*color: white;*/
+}
+
+
+.font-color {
+    color: white !important;
+}
+
+.font-style {
+    font-family: Amelia;
+    font-weight: 400;
+    text-align: center;
+}
+
+.img-size {
+    display: block;
+    margin: auto;
+}
+
+.body {
+    background: #EFEFEF;
+}
+.bg-color-panel {
+    background-color: #DEDEE3 !important;
+}
+
+.star-rating {
+    line-height: 32px;
+    font-size: 1.25em;
+}
+
+    .star-rating .fa-star {
+        color: yellow;
+    }

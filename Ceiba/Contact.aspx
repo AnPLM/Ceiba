@@ -15,7 +15,7 @@
 </head>
 <body class="body">
      <header class="header">
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse ">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -28,34 +28,14 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
 
-                        <li class="dropdown">
-                            <a style="" class="dropdown-toggle font-color" data-toggle="dropdown" href="#">Productos<span class="caret"></span></a>
-                            <ul style="background-color: black; color: black" class="dropdown-menu ">
-                                <li><a class="dropdown-item" style="color: #FFFFFF" href="#tema1">Plantas pequeñas</a></li>
-                                <li><a class="dropdown-item" style="color: #FFFFFF" href="#arreglos">Arreglos</a></li>
-                                <li><a class="dropdown-item" style="color: #FFFFFF" href="#complementos">Complementos</a></li>
-                            </ul>
-                        </li>
+                        <li><a class="font-color" href="Home.aspx">Productos</a></li>
                         <li><a class="font-color" href="About.aspx">Sobre nosotros</a></li>
-                        <li><a class="font-color" href="#">Preguntas</a></li>
+                        <li><a class="font-color" href="Questions.aspx">Preguntas</a></li>
                         <li><a class="font-color" href="Contact.aspx">Contacto</a></li>
-                        <li><a href="ShoppingCart.aspx" class="font-color">
-                            <span class="glyphicon glyphicon-shopping-cart"></span>Shopping Cart
-                        </a>
-                        </li>
                     </ul>
-                    <div style="position: absolute; right: 10px;">
-                        <form class="navbar-form navbar-left" action="/action_page.php">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search" name="search">
-                                <div class="input-group-btn">
-                                    <button class="btn btn-default" type="submit">
-                                        <i class="glyphicon glyphicon-search"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+                    <a href="ShoppingCart.aspx" class="font-color" style="float: right !important;margin-top: 13px; margin-right:15px !important;">
+                            <span class="glyphicon glyphicon-shopping-cart"></span></a>
+                   
 
                 </div>
             </div>
@@ -72,7 +52,7 @@
                     <div class="panel panel-primary border-panel" style="border-color:lightgray">
                         <div class="panel-heading border-header bg-color-panel" style="background-color:#F5F5F5;border-color:lightgrey;">
                             <h2 style="color:black">Formulario de Contacto</h2>
-                            <p class="title-panel" style="font-size: 15px; color:black">Si desea más información, llene el siguiente formulario y nosotros nos ponemos en contacto con usted.</p>
+                            <p class="title-panel" style="font-size: 15px; color:black">Si desea más información, llene el siguiente formulario y nos pondremos en contacto con usted.</p>
                         </div>
                         <div class="panel-body">
                             <section class="">

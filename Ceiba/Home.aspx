@@ -61,8 +61,8 @@
                             </ul>
                         </li>
                         <li><a class="font-color" href="About.aspx">Sobre nosotros</a></li>
-                        <li><a class="font-color" href="#">Preguntas</a></li>
-                        <li><a class="font-color" href="CeibaContact.aspx">Contacto</a></li>
+                        <li><a class="font-color" href="Questions.aspx">Preguntas</a></li>
+                        <li><a class="font-color" href="Contact.aspx">Contacto</a></li>
                         <!--<li><a href="ShoppingCart.aspx" class="font-color" style="float: right !important;">
                             <span class="glyphicon glyphicon-shopping-cart"></span></a>
                         </li>-->
@@ -140,18 +140,8 @@
             </div>
 
             <div class="col-sm-4">
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-                <script>
-$(document).ready(function(){
-    $('.zoom').hover(function() {
-        $(this).addClass('transition');
-    }, function() {
-        $(this).removeClass('transition');
-    });
-});
-</script>
                 <h2 class="font-style">Ginura</h2>
-                <img src="/Imagenes/Ginura.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236" class="zoom">
+                <img src="/Imagenes/Ginura.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236">
                 <p class="description-products">Ginura marrón con pintas negras</p>
                 <p class="price">₡3500</p>
                 <div class="text-center">

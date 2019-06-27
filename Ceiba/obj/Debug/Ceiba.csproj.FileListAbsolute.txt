@@ -112,3 +112,4 @@ C:\Users\Adan\Source\Repos\CeibaN\Ceiba\bin\Ceiba.pdb
 C:\Users\Adan\Source\Repos\CeibaN\Ceiba\obj\Debug\Ceiba.csproj.CoreCompileInputs.cache
 C:\Users\Adan\Source\Repos\CeibaN\Ceiba\obj\Debug\Ceiba.dll
 C:\Users\Adan\Source\Repos\CeibaN\Ceiba\obj\Debug\Ceiba.pdb
+C:\Users\Adan\Source\Repos\CeibaN\Ceiba\obj\Debug\Ceiba.csprojAssemblyReference.cache

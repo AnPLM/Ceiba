@@ -7,6 +7,7 @@
     <title>Ceiba</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="shortcut icon" href="/ceiba.ico" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -87,10 +88,10 @@
             </table>
             <p id="tot" class="text-right"><span id="total"></span></p>
             <!--button onclick="cargar()"> Finalizar Compra </button-->
-                <button class="btn btn-primary btn-responsive center-block margin-botton-panel">Finalizar Compra</button>
+                <button class="btn btn-primary btn-responsive center-block margin-botton-panel"><a href="Shop.html">
+            Finalizar Compra</a>Finalizar Compra</button>
            
-            <a href="Shop.html">
-            </a>
+            
         </div>
     </div>
     <div class="col-md-10 col-md-offset-1">

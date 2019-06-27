@@ -123,6 +123,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ceiba.ico" />
     <None Include="Properties\PublishProfiles\Default Settings.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

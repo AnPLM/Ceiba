@@ -28,36 +28,17 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-
-                        <li class="dropdown">
-                            <a style="" class="dropdown-toggle font-color" data-toggle="dropdown" href="#">Productos<span class="caret"></span></a>
-                            <ul style="background-color: black; color: black" class="dropdown-menu ">
-                                <li><a class="dropdown-item" style="color: #FFFFFF" href="#tema1">Plantas pequeñas</a></li>
-                                <li><a class="dropdown-item" style="color: #FFFFFF" href="#arreglos">Arreglos</a></li>
-                                <li><a class="dropdown-item" style="color: #FFFFFF" href="#complementos">Complementos</a></li>
-                            </ul>
-                        </li>
+                        <li><a class="font-color" href="Home.aspx">Productos</a></li>
                         <li><a class="font-color" href="About.aspx">Sobre nosotros</a></li>
                         <li><a class="font-color" href="Questions.aspx">Preguntas</a></li>
-                        <li><a class="font-color" href="Contact.aspx">Contacto</a></li>
+                        <li><a class="font-color" href="CeibaContact.aspx">Contacto</a></li>
                         <!--<li><a href="ShoppingCart.aspx" class="font-color" style="float: right !important;">
                             <span class="glyphicon glyphicon-shopping-cart"></span></a>
                         </li>-->
                     </ul>
                     <a href="ShoppingCart.aspx" class="font-color" style="float: right !important; margin-top: 13px; margin-right: 15px !important;">
                         <span class="glyphicon glyphicon-shopping-cart"></span></a>
-                    <div class="search-nav" style="position: absolute; right: 10px;">
-                        <form class="navbar-form navbar-left" action="/action_page.php">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search" name="search"/>
-                                <div class="input-group-btn">
-                                    <button class="btn btn-default" type="submit">
-                                        <i class="glyphicon glyphicon-search"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+    
                 </div>
             </div>
         </nav>
@@ -76,7 +57,7 @@
         <div class="col-md-8 col-md-offset-2">
             <h2>Carrito de Compras</h2>
             <table class="table table-bordered table-responsive-md table-striped text-center" id="tablaCarrito">
-                <thead>
+                <thead class="header-table" >
                     <tr>
                         <th>Nombre</th>
                         <th>Descripcion</th>
@@ -87,8 +68,9 @@
             </table>
             <p id="tot" class="text-right"><span id="total"></span></p>
             <!--button onclick="cargar()"> Finalizar Compra </button-->
-                <button class="btn btn-primary btn-responsive center-block margin-botton-panel">Finalizar Compra</button>
-           
+            <div class="col-md-3" style="margin:auto;">
+                <a type="button" href="Home.aspx" class="btn btn-primary btn-responsive center-block margin-botton-panel" onClick="return confirm('Desea finalizar la compra?')">Finalizar Compra</a>
+           </div>
             <a href="Shop.html">
             </a>
         </div>

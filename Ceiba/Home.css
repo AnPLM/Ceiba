@@ -83,26 +83,25 @@
 .btn {
     background-color: white;
     color: black;
-    border: 2px solid #4CAF50;
+    /*border: 2px solid #4CAF50;*/
 }
 
     .btn:hover {
-        background-color: #4CAF50;
+        /*background-color: #4CAF50;*/
         color: white;
     } 
 /*
 .button-style {
     /*  background-color:#002052 !important;
     border: 0px;*/
-   /* background-color: #96183a;*/
-    /*background-color: #1e8449;
+        /* background-color: #96183a;*/
+        /*background-color: #1e8449;
     border: none;
     color: white !important;
     /*font-weight:bold;*/
-   /* font-size: 15px;
+        /* font-size: 15px;
 } */
-
-.background-1 {
+        .background-1 {
     background-image: url(/Imagenes/complementos.png) !important;
     background-attachment: fixed;
     background-repeat: no-repeat;

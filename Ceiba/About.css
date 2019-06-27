@@ -48,6 +48,6 @@
 
 .panel-2 {
     min-height: 350px;
-    background: url(/Imagenes/8.png);
-    background-size: cover;
+    /*background: url(/Imagenes/8.png);*/
+    /*background-size: cover;*/
 }

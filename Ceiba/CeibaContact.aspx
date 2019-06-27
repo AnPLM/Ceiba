@@ -66,7 +66,7 @@
 
     <form id="form1" runat="server">
         <div class="row">
-            <div class="col-md-6" style="background-color: white">
+            <div class="col-md-6" style="">
 
                 <div style="padding: 35px;">
                     <div class="panel panel-primary border-panel" style="border-color: lightgray">

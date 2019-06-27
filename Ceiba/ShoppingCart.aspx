@@ -35,7 +35,7 @@
                 <li><a class="font-color" href="Home.aspx">Productos</a></li>
                 <li><a class="font-color" href="About.aspx">Acerca</a></li>
                 <li><a class="font-color" href="#">Preguntas</a></li>
-                <li><a class="font-color" href="#">Contacto</a></li>
+                <li><a class="font-color" href="CeibaContact">Contacto</a></li>
                 <li><a href="ShoppingCart.aspx" class="font-color">
           <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
         </a></li>

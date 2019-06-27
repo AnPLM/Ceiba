@@ -30,18 +30,8 @@
                     <li><a class="font-color" href="Questions.aspx">Preguntas</a></li>
                     <li><a class="font-color" href="CeibaContact.aspx">Contacto</a></li>
                 </ul>
-                <div class="float-right">
-                    <form class="navbar-form navbar-left" action="/action_page.php">
-                        <div class="input-group ">
-                            <input type="text" class="form-control " placeholder="Search" name="search">
-                            <div class="input-group-btn">
-                                <button class="btn btn-default" type="submit">
-                                    <i class="glyphicon glyphicon-search"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+                <a href="ShoppingCart.aspx" class="font-color" style="float: right !important; margin-top: 13px; margin-right: 15px !important;">
+                        <span class="glyphicon glyphicon-shopping-cart"></span></a>
 
             </div>
         </div>

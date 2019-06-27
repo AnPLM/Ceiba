@@ -28,21 +28,11 @@
                 <ul class="nav navbar-nav">
                     <li><a class="font-color" href="Home.aspx">Productos</a></li>
                     <li><a class="font-color" href="About.aspx">Sobre nosotros</a></li>
-                    <li><a class="font-color" href="#">Preguntas</a></li>
+                    <li><a class="font-color" href="Questions.aspx">Preguntas</a></li>
                     <li><a class="font-color" href="CeibaContact.aspx">Contacto</a></li>
                 </ul>
-                <div class="float-right">
-                    <form class="navbar-form navbar-left" action="/action_page.php">
-                        <div class="input-group ">
-                            <input type="text" class="form-control " placeholder="Search" name="search">
-                            <div class="input-group-btn">
-                                <button class="btn btn-default" type="submit">
-                                    <i class="glyphicon glyphicon-search"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+                <a href="ShoppingCart.aspx" class="font-color" style="float: right !important; margin-top: 13px; margin-right: 15px !important;">
+                        <span class="glyphicon glyphicon-shopping-cart"></span></a>
 
             </div>
         </div>
@@ -59,7 +49,9 @@
             <div class="col-sm-6 panel-1" ></div>
         </div>
         <div class="row">
-            <div class="col-sm-6  panel-2" style="background-color: lavender;"></div>
+            <div class="col-sm-6  panel-2" style="background-color: lavenderblush; padding:0px;">
+                <iframe width="100%" height="345px" src="https://www.youtube.com/embed/p2EQLVvRziw"></iframe>
+            </div>
             <div class="col-sm-6 mission-panel" style="background-color: lavenderblush;">
                 <h2 class="font-style">Misión</h2>
                 <p class="font-style " style="font-size: 3.5vh;">

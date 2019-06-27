@@ -71,6 +71,7 @@
             <div class="row" style="text-align:center; justify-content: center;">
                 <div class="col-md-3" style=" margin-left: auto; margin-right: auto; float: none;">
                     <a type="button" href="Home.aspx" class="btn btn-primary btn-responsive center-block margin-botton-panel" onClick="return confirm('¿Desea finalizar la compra?')">Finalizar Compra</a>
+                
                 </div>
             </div>
             <a href="Shop.html">

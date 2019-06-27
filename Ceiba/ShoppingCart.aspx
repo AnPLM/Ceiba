@@ -68,9 +68,11 @@
             </table>
             <p id="tot" class="text-right"><span id="total"></span></p>
             <!--button onclick="cargar()"> Finalizar Compra </button-->
-            <div class="col-md-3" style="margin:auto;">
-                <a type="button" href="Home.aspx" class="btn btn-primary btn-responsive center-block margin-botton-panel" onClick="return confirm('Desea finalizar la compra?')">Finalizar Compra</a>
-           </div>
+            <div class="row" style="text-align:center; justify-content: center;">
+                <div class="col-md-3" style=" margin-left: auto; margin-right: auto; float: none;">
+                    <a type="button" href="Home.aspx" class="btn btn-primary btn-responsive center-block margin-botton-panel" onClick="return confirm('¿Desea finalizar la compra?')">Finalizar Compra</a>
+                </div>
+            </div>
             <a href="Shop.html">
             </a>
         </div>

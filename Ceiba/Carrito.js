@@ -7,27 +7,35 @@ function add(a, b, c) {
     sessionStorage.setItem('data', JSON.stringify(array));
 }
 
-text = "<ul>";
+text = "";
 
 function cargar() {
     var data = JSON.parse(sessionStorage.getItem('data'));
-    var tot = 0 ;
+    var tot = 0;
+    text = '';
+    //text = '<div class="col-md-8">';
 
     for (i = 0; i < data.length; i++) {
 
-        var txt = '<div class="col - sm - 4">' ;
-        txt += '<h2 class="font-style">' + data[i].nombre  + '</h2>';
-        txt += ' <img src="' + data[i].imgage + '"  class="img-responsive img-size" alt="Cinque Terre" width="304" height="236">';
-        txt += '<p class="description-products">' + data[i].nombre + '</p>' ;
-        txt += '<p class="price">₡' + data[i].precio + '</p>' ;
-        txt += '</div>' ;
-        text += "<li>" + txt + "</li>";
-        tot =+ data[i].precio ;
+        var txt = '<tr>';
+        //        txt += '<h2 class="font-style">' + data[i].nombre  + '</h2>';
+        txt += '<th>' + data[i].nombre;
+      //  txt += '<th>' + data[i].nombre + '</th>';
+        txt += ' <img src="' + data[i].imgage + '"  class="img-responsive img-size" alt="Cinque Terre" width="130" height="130">' + '</th>';
+        txt += '<th>' + data[i].nombre + '</th>';
+        txt += '<th>₡' + data[i].precio + '</th>';
+        //txt += '</div>' ;
+        text += txt + "</tr>";
+        tot += parseInt(data[i].precio);
     }
 
-    text += "</ul>";
-    document.getElementById("list").innerHTML = text ;
-    document.getElementById("tot").innerHTML = "$ "+tot ;
+    text += "";
+    // text += "</div>";
+    document.getElementById("list").innerHTML = text;
+    document.getElementById("tot").innerHTML = "₡ " + tot;
+}
+function comprado() {
+    alert('Su compra ha sido exitosa');
 }
 
 function myFunction(value) {

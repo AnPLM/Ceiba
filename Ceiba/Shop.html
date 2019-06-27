@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <title>Ceiba</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src='carrito.js'></script>
+    <link href="/Cart.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand font-color" style="font-size: 28px;" href="Home.aspx">Ceiba</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+
+                        <li class="dropdown">
+                            <a style="" class="dropdown-toggle font-color" data-toggle="dropdown" href="#">Productos<span class="caret"></span></a>
+                            <ul style="background-color: black; color: black" class="dropdown-menu ">
+                                <li><a class="dropdown-item" style="color: #FFFFFF" href="#tema1">Plantas pequeñas</a></li>
+                                <li><a class="dropdown-item" style="color: #FFFFFF" href="#arreglos">Arreglos</a></li>
+                                <li><a class="dropdown-item" style="color: #FFFFFF" href="#complementos">Complementos</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="font-color" href="About.aspx">Sobre nosotros</a></li>
+                        <li><a class="font-color" href="Questions.aspx">Preguntas</a></li>
+                        <li><a class="font-color" href="Contact.aspx">Contacto</a></li>
+                        <!--<li><a href="ShoppingCart.aspx" class="font-color" style="float: right !important;">
+                            <span class="glyphicon glyphicon-shopping-cart"></span></a>
+                        </li>-->
+                    </ul>
+                    <a href="ShoppingCart.aspx" class="font-color" style="float: right !important; margin-top: 13px; margin-right: 15px !important;">
+                        <span class="glyphicon glyphicon-shopping-cart"></span>
+                    </a>
+                    <div class="search-nav" style="position: absolute; right: 10px;">
+                        <form class="navbar-form navbar-left" action="/action_page.php">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search" name="search">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">
+                                        <i class="glyphicon glyphicon-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <br />
+        <br />
+
+    </header>
+
+    <div style="padding:30px;">
+        <div class=" col-md-8 col-md-offset-2">
+            <h3 class="card-header" style="text-align:center">Pago</h3>
+            <div class="card-body">
+                <div class="container-fluid">
+                    <div class="">
+                        <form>
+                            <input type='hidden' name='_token' value=''>
+                            <div align="right">
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-md-5 col-md-offset-1" style="margin-top:10px;">
+                                    <label class="" for="name"><strong style="margin-top: 75px">Nombre</strong><strong style="color:red; font-size: 15px">*</strong></label>
+                                    <input id="name" placeholder="Nombre" class="form-control" name="name" type="text" required>
+                                </div>
+                                <div class="col-md-5 " style="margin-top:10px;">
+                                    <label for="identification"><strong>Cédula</strong><strong style="font-size: 15px"> </strong></label>
+                                    <input id="identification" placeholder="Cédula" class="form-control" name="identification" type="text" required>
+                                </div>
+
+                            </div>
+                            <div class="Box row justify-content-center">
+                                <div class="col-md-5 col-md-offset-1" style="margin-top:10px;">
+                                    <label for="lastname"><strong>Primer Apellido</strong><strong style="color:red; font-size: 15px">*</strong></label>
+                                    <input id="lastname" placeholder="Primer Apellido" class="form-control" name="lastname" type="text" required>
+                                </div>
+                                <div class="col-md-5 " style="margin-top:10px;">
+                                    <label for="number"><strong>Teléfono</strong></label>
+                                    <input id="number" placeholder="Teléfono" class="form-control" name="number" type="tel">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-md-5 col-md-offset-1" style="margin-top:10px;">
+                                    <label for="second_lastname"><strong>Segundo apellido</strong><strong style="color:red; font-size: 15px">*</strong></label>
+                                    <input id="second_lastname" placeholder="Segundo Apellido" class="form-control" name="second_lastname" type="text" required>
+                                </div>
+                                <div class="col-md-5 " style="margin-top:10px;">
+                                    <label for="email"><strong>Correo electrónico</strong><strong style="font-size: 15px"> </strong></label>
+                                    <input id="email" placeholder="Correo electrónico" class="form-control" name="email" type="email">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-md-5 col-md-offset-1" style="margin-top:10px;">
+                                    <label for="tarjet_number"><strong>Numero de Tarjeta</strong><strong style="color:red; font-size: 15px">*</strong></label>
+                                    <input id="tarjet_number" placeholder="Segundo Apellido" class="form-control" name="tarjet_number" type="text" required>
+                                </div>
+                                <div class="col-md-5 " style="margin-top:10px;">
+                                    <label for="date"><strong>Fecha de Vencimiento</strong><strong style="font-size: 15px"> </strong></label>
+                                    <input id="date" placeholder="Correo electrónico" class="form-control" name="date" type="date" required>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-center">
+                                <div class="col-md-10 col-md-offset-1" style="margin-top:10px;">
+                                    <label for="address"><strong>Dirección</strong></label>
+                                    <textarea placeholder="Escriba la dirección del cliente" class="form-control" type="text" name="address" id="address" value="" rows="4" style="resize: none;"></textarea>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row justify-content-center">
+                                <div class="col-md-5 col-md-offset-1" style="margin-top:5px;">
+                                    <button class="btn btn-primary btn-block" onclick="comprado()" href="Home.aspx"> Efectuar Pago </button>
+                                </div>
+                                <div class="col-md-5" style="margin-top:5px;">
+                                    <button class="btn btn-danger btn-block" onclick="cargar()"> Cancelar </button>
+
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <br />
+            <div class="col-md-10 col-md-offset-1">
+                <hr />
+            </div>
+            <br />
+            <div><br /></div>
+            <div><br /></div>
+            <br />
+            <br />
+        </div>
+    </div>
+</body>
+</html>

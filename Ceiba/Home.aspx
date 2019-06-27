@@ -6,16 +6,16 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Ceiba</title>
-    <meta charset="utf-8">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <meta charset="utf-8"/>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="carrito.js"></script>
     <link href="/Home.css" rel="stylesheet" type="text/css" />
-  <link href="/Cart.css" rel="stylesheet" type="text/css" />
+    <link href="/Cart.css" rel="stylesheet" type="text/css" />
 
     <style>
         #map {
@@ -23,13 +23,14 @@
             height: 400px;
             background-color: grey;
         }
+
         @media (max-width: 767px) {
             div.search-center {
                 display: none !important;
             }
         }
 
-         @media (min-width: 767px) {
+        @media (min-width: 767px) {
             div.search-nav {
                 display: none !important;
             }
@@ -67,12 +68,12 @@
                             <span class="glyphicon glyphicon-shopping-cart"></span></a>
                         </li>-->
                     </ul>
-                    <a href="ShoppingCart.aspx" class="font-color" style="float: right !important;margin-top: 13px; margin-right:15px !important;">
-                            <span class="glyphicon glyphicon-shopping-cart"></span></a>
+                    <a href="ShoppingCart.aspx" class="font-color" style="float: right !important; margin-top: 13px; margin-right: 15px !important;">
+                        <span class="glyphicon glyphicon-shopping-cart"></span></a>
                     <div class="search-nav" style="position: absolute; right: 10px;">
                         <form class="navbar-form navbar-left" action="/action_page.php">
                             <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search" name="search">
+                                <input type="text" class="form-control" placeholder="Search" name="search"/>
                                 <div class="input-group-btn">
                                     <button class="btn btn-default" type="submit">
                                         <i class="glyphicon glyphicon-search"></i>
@@ -117,11 +118,11 @@
     <div class="container">
         <!-- Plantas pequeñas -->
         <a name="tema1"></a>
-        <br>
+        <br/>
         <div class="row">
             <div class="col-sm-4">
                 <h2 class="font-style">Cactus Globo</h2>
-                <img src="/Imagenes/CatusGloboso.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236">
+                <img src="/Imagenes/CatusGloboso.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
                 <p class="description-products">Cactus verde con flores blancas</p>
                 <p class="price">₡3500</p>
                 <div class="text-center">
@@ -131,7 +132,7 @@
 
             <div class="col-sm-4">
                 <h2 class="font-style">Suculenta</h2>
-                <img src="/Imagenes/Suculenta.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236">
+                <img src="/Imagenes/Suculenta.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
                 <p class="description-products">Suculenta verde claro</p>
                 <p class="price">₡3500</p>
                 <div class="text-center">
@@ -141,7 +142,7 @@
 
             <div class="col-sm-4">
                 <h2 class="font-style">Ginura</h2>
-                <img src="/Imagenes/Ginura.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236">
+                <img src="/Imagenes/Ginura.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
                 <p class="description-products">Ginura marrón con pintas negras</p>
                 <p class="price">₡3500</p>
                 <div class="text-center">
@@ -149,11 +150,11 @@
                 </div>
             </div>
         </div>
-        <br>
+        <br/>
         <div class="row">
             <div class="col-sm-4">
                 <h2 class="font-style">Drácena</h2>
-                <img src="/Imagenes/peque1.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236">
+                <img src="/Imagenes/peque1.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
                 <p class="description-products">Cactus verde con flores blancas</p>
                 <p class="price">₡3500</p>
                 <div class="text-center">
@@ -163,7 +164,7 @@
 
             <div class="col-sm-4">
                 <h2 class="font-style">Suculenta Rosada</h2>
-                <img src="/Imagenes/peque2.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236">
+                <img src="/Imagenes/peque2.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
                 <p class="description-products">Suculenta rosado claro</p>
                 <p class="price">₡3500</p>
                 <div class="text-center">
@@ -173,7 +174,7 @@
 
             <div class="col-sm-4">
                 <h2 class="font-style">Areca </h2>
-                <img src="/Imagenes/peque3.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236">
+                <img src="/Imagenes/peque3.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
                 <a name="arreglos"></a>
                 <p class="description-products">Ginura marrón con pintas negras</p>
                 <p class="price">₡3500</p>
@@ -183,19 +184,19 @@
             </div>
         </div>
         <a name="arreglos"></a>
-        <br>
-        <br>
+        <br/>
+        <br/>
 
         <!-- Imagen fondo fijo -->
         <div class="col-md-12 background-2" style="min-height: 300px; background-attachment: fixed;">
         </div>
-        <br>
-        <br>
+        <br/>
+        <br/>
         <!-- Arreglos -->
         <div class="row">
             <div class="col-sm-4">
                 <h2 class="font-style">Deseo</h2>
-                <img src="/Imagenes/Ro1.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236">
+                <img src="/Imagenes/Ro1.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
                 <p class="description-products">
                     Arreglo de flores
               naranjas y rojas
@@ -208,7 +209,7 @@
 
             <div class="col-sm-4">
                 <h2 class="font-style">Habana</h2>
-                <img src="/Imagenes/Ro2.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236">
+                <img src="/Imagenes/Ro2.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
                 <p class="description-products">Arreglo de flores rojas pequeñas</p>
                 <p class="price">₡6500</p>
                 <div class="text-center">
@@ -218,7 +219,7 @@
 
             <div class="col-sm-4">
                 <h2 class="font-style">Ramo Sexto</h2>
-                <img src="/Imagenes/Ro3.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236">
+                <img src="/Imagenes/Ro3.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
                 <p class="description-products">Arreglo de flores rojas grandes</p>
                 <p class="price">₡7500</p>
                 <div class="text-center">
@@ -226,12 +227,12 @@
                 </div>
             </div>
         </div>
-        <br>
-        <br>
+        <br/>
+        <br/>
         <div class="row">
             <div class="col-sm-4">
                 <h2 class="font-style">Aneto</h2>
-                <img src="/Imagenes/Flor4.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236">
+                <img src="/Imagenes/Flor4.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
                 <p class="description-products">
                     Arreglo de flores
               naranjas, amarillas y rosadas
@@ -244,7 +245,7 @@
 
             <div class="col-sm-4">
                 <h2 class="font-style">Ajeo</h2>
-                <img src="/Imagenes/Flor5.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236">
+                <img src="/Imagenes/Flor5.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
                 <p class="description-products">Arreglo de flores blancas</p>
                 <p class="price">₡6500</p>
                 <div class="text-center">
@@ -254,7 +255,7 @@
 
             <div class="col-sm-4">
                 <h2 class="font-style">Ramo Diurno</h2>
-                <img src="/Imagenes/Flor6.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236">
+                <img src="/Imagenes/Flor6.jpg" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
                 <p class="description-products">Arreglo de flores rojas y naranjas</p>
                 <a name="complementos"></a>
                 <p class="price">₡7500</p>
@@ -263,19 +264,19 @@
                 </div>
             </div>
         </div>
-        <br>
-        <br>
+        <br/>
+        <br/>
 
-        <br>
+        <br/>
 
             <!-- Imagen fondo fijo -->
             <div class="col-md-12 background-1" style="min-height: 300px; background-attachment: fixed;">
             </div>
-        </br>
+        <br/>
         <div class="row">
             <div class="col-sm-4">
                 <h2 class="font-style">Abono en trozos</h2>
-                <img src="/Imagenes/Abono1.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236">
+                <img src="/Imagenes/Abono1.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
                 <p class="description-products">Abono en trozos grandes</p>
                 <p class="price">₡5500</p>
                 <div class="text-center">
@@ -285,7 +286,7 @@
 
             <div class="col-sm-4">
                 <h2 class="font-style">Abono orgánico</h2>
-                <img src="/Imagenes/Abono6.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236">
+                <img src="/Imagenes/Abono6.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
                 <p class="description-products">Saco de abono orgánico</p>
                 <p class="price">₡12000</p>
                 <div class="text-center">
@@ -295,7 +296,7 @@
 
             <div class="col-sm-4">
                 <h2 class="font-style">Abono molido</h2>
-                <img src="/Imagenes/Abono2.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236">
+                <img src="/Imagenes/Abono2.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
                 <p class="description-products">Abono molido</p>
                 <p class="price">₡4500</p>
                 <div class="text-center">
@@ -303,12 +304,12 @@
                 </div>
             </div>
         </div>
-        <br>
-        <br>
+        <br/>
+        <br/>
         <div class="row">
             <div class="col-sm-4">
                 <h2 class="font-style">Carretillo</h2>
-                <img src="/Imagenes/herramienta1.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236">
+                <img src="/Imagenes/herramienta1.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
                 <p class="description-products">Carretillo celeste</p>
                 <p class="price">₡5500</p>
                 <div class="text-center">
@@ -318,7 +319,7 @@
 
             <div class="col-sm-4">
                 <h2 class="font-style">Palillas de jardinería</h2>
-                <img src="/Imagenes/herramienta2.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236">
+                <img src="/Imagenes/herramienta2.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
                 <p class="description-products">Palillas de mango negro con verde</p>
                 <p class="price">₡12000</p>
                 <div class="text-center">
@@ -328,7 +329,7 @@
 
             <div class="col-sm-4">
                 <h2 class="font-style">Kit de jardinería</h2>
-                <img src="/Imagenes/herramienta3.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236">
+                <img src="/Imagenes/herramienta3.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
                 <p class="description-products">Kit de jardinería celeste</p>
                 <p class="price">₡4500</p>
                 <div class="text-center">
@@ -337,8 +338,8 @@
             </div>
         </div>
     </div>
-    <br>
-    <br>
+    <br/>
+    <br/>
 
     <!-- Carrusel -->
     <div class="container">
@@ -375,12 +376,6 @@
     </div>
     <br>
     <br>
-
-
-
-
-
-
 
     <footer style="background-color: #3C3A3A; height: 250px;" class="">
         <div class="container-fluid text-center text-md-left" style="color: white;">

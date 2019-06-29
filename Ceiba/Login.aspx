@@ -80,7 +80,7 @@
             var password = document.getElementById("password").value;
 
             if ((username == "admin") && (password == "123456")) {
-                alert("Felicidades usted ha iniciado sesión");
+                location.href = "ShopManage.aspx";
             } else {
                 document.getElementById("wrong").style.display = "block";
             }

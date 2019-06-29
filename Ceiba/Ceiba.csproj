@@ -76,6 +76,8 @@
     <Content Include="Questions.aspx" />
     <Content Include="Questions.css" />
     <Content Include="Shop.html" />
+    <Content Include="ShopManage.aspx" />
+    <Content Include="ShopManage.css" />
     <Content Include="ShoppingCart.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -122,6 +124,13 @@
     </Compile>
     <Compile Include="Questions.aspx.designer.cs">
       <DependentUpon>Questions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShopManage.aspx.cs">
+      <DependentUpon>ShopManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShopManage.aspx.designer.cs">
+      <DependentUpon>ShopManage.aspx</DependentUpon>
     </Compile>
     <Compile Include="ShoppingCart.aspx.cs">
       <DependentUpon>ShoppingCart.aspx</DependentUpon>

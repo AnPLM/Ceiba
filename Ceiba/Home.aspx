@@ -65,9 +65,7 @@
                         <li><a class="font-color" href="About.aspx">Sobre nosotros</a></li>
                         <li><a class="font-color" href="Questions.aspx">Preguntas</a></li>
                         <li><a class="font-color" href="CeibaContact.aspx">Contacto</a></li>
-                        <!--<li><a href="ShoppingCart.aspx" class="font-color" style="float: right !important;">
-                            <span class="glyphicon glyphicon-shopping-cart"></span></a>
-                        </li>-->
+                         <li><a class="font-color" href="Login.aspx">Administrador</a></li>
                     </ul>
                     <a href="ShoppingCart.aspx" class="font-color" style="float: right !important; margin-top: 13px; margin-right: 15px !important;">
                         <span class="glyphicon glyphicon-shopping-cart"></span></a>
@@ -76,7 +74,7 @@
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Search" name="search"/>
                                 <div class="input-group-btn">
-                                    <button class="btn btn-default" type="submit">
+                                    <button class="btn btn-default btn-search" type="submit">
                                         <i class="glyphicon glyphicon-search"></i>
                                     </button>
                                 </div>
@@ -127,7 +125,7 @@
                 <p class="description-products">Cactus verde con flores blancas</p>
                 <p class="price">₡3500</p>
                 <div class="text-center">
-                    <button onclick="add('Cactus verde con flores blancas', '/Imagenes/CatusGloboso.jpg','3500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button>
+                    <button onclick="add('Cactus verde con flores blancas', '/Imagenes/CatusGloboso.jpg','3500')" type="button" class="btn btn-primary button-style btn-add">Añadir al carrito</button>
                 </div>
             </div>
 
@@ -137,7 +135,7 @@
                 <p class="description-products">Suculenta verde claro</p>
                 <p class="price">₡3500</p>
                 <div class="text-center">
-                    <button onclick="add('Suculenta verde claro', '/Imagenes/Suculenta.jpg', '3500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button>
+                    <button onclick="add('Suculenta verde claro', '/Imagenes/Suculenta.jpg', '3500')" type="button" class="btn btn-primary button-style btn-add">Añadir al carrito</button>
                 </div>
             </div>
 
@@ -147,7 +145,7 @@
                 <p class="description-products">Ginura marrón con pintas negras</p>
                 <p class="price">₡3500</p>
                 <div class="text-center">
-                    <button onclick="add('Ginura marron con pintas negras','/Imagenes/Ginura.jpg','3500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button>
+                    <button onclick="add('Ginura marron con pintas negras','/Imagenes/Ginura.jpg','3500')" type="button" class="btn btn-primary button-style btn-add">Añadir al carrito</button>
                 </div>
             </div>
         </div>
@@ -159,7 +157,7 @@
                 <p class="description-products">Cactus verde con flores blancas</p>
                 <p class="price">₡3500</p>
                 <div class="text-center">
-                    <button onclick="add('Cactus verde con flores blancas','/Imagenes/peque1.jpg', '3500' )" type="button" class="btn btn-primary button-style">Añadir al carrito</button>
+                    <button onclick="add('Cactus verde con flores blancas','/Imagenes/peque1.jpg', '3500' )" type="button" class="btn btn-primary button-style btn-add">Añadir al carrito</button>
                 </div>
             </div>
 
@@ -169,7 +167,7 @@
                 <p class="description-products">Suculenta rosado claro</p>
                 <p class="price">₡3500</p>
                 <div class="text-center">
-                    <button onclick="add('Suculenta rosado claro','/Imagenes/peque2.jpg','3500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button>
+                    <button onclick="add('Suculenta rosado claro','/Imagenes/peque2.jpg','3500')" type="button" class="btn btn-primary button-style btn-add">Añadir al carrito</button>
                 </div>
             </div>
 
@@ -180,7 +178,7 @@
                 <p class="description-products">Ginura marrón con pintas negras</p>
                 <p class="price">₡3500</p>
                 <div class="text-center">
-                    <button onclick="add('Ginura Marron con pintas negras','/Imagenes/peque3.jpg','3500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button>
+                    <button onclick="add('Ginura Marron con pintas negras','/Imagenes/peque3.jpg','3500')" type="button" class="btn btn-primary button-style btn-add">Añadir al carrito</button>
                 </div>
             </div>
         </div>

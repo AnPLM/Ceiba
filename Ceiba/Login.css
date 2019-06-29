@@ -1,0 +1,85 @@
+﻿.body {
+    background-color: #EFEFEF !important;
+}
+
+.font-color {
+    color: white !important;
+}
+
+.col-sm-6 {
+    min-height: 600px;
+}
+
+.navbar {
+    background: url(/Imagenes/Navbar2.png) no-repeat center;
+    border: 0;
+    font-size: 18px;
+
+    /*color: white;*/
+}
+
+.border-panel {
+    border-color: #C6C6C9 !important;
+}
+
+.border-header {
+    border-color: #C6C6C9 !important;
+}
+
+.h2 {
+    color: black !important;
+}
+
+.bg-color-panel {
+    background-color: #DEDEE3 !important;
+}
+
+
+.title-panel {
+    text-align: left;
+    font-size: 3vh;
+    font-size: 15px;
+    color: black;
+}
+
+
+
+.info {
+    padding: 35px;
+    text-align: center;
+}
+
+.body {
+    background: url(/Imagenes/x.png) no-repeat center;
+    background-size: cover;
+    min-height: 90vh;
+}
+
+
+.login-form {
+   
+    
+    margin-top: 100px;
+}
+
+    .login-form form {
+        margin-bottom: 15px;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+
+    .login-form h2 {
+        margin: 0 0 15px;
+    }
+
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+
+.btn {
+    font-size: 15px;
+    font-weight: bold;
+}
+

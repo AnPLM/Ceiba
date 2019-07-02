@@ -57,6 +57,7 @@
                         <th>Nombre</th>
                         <th>Descripcion</th>
                         <th>Precio</th>
+                        <th>Opciones</th>
                     </tr>
                 </thead>
                 <tbody id="list"></tbody>
@@ -85,6 +86,6 @@
     </div>
 
     <script src='/carrito.js'></script>
-    <script src='carrito.js'></script>
+    <!--<script src='carrito.js'></script>-->
 </body>
 </html>

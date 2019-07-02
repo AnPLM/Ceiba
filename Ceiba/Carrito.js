@@ -29,9 +29,10 @@ function cargar() {
     var tot = 0;
     text = '';
     for (i = 0; i < data.length; i++) {
-
+        var nombre = data[i].nombre;
         var txt = '<tr>';
-        var bt = '<button onclick = "eliminar(' + data[i].nombre + ')" type="button" class="btn btn-warning" > Eliminar</button >';
+        var bt = '<button onclick = "eliminar(\'' + data[i].nombre +'\')" type="button" class="btn btn-warning" > Eliminar</button >';
+        
         txt += '<th>' + data[i].nombre;
         txt += ' <img src="' + data[i].imgage + '"  class="img-responsive img-size" alt="Cinque Terre" width="130" height="130">' + '</th>';
         txt += '<th>' + data[i].nombre + '</th>';

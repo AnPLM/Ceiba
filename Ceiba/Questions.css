@@ -40,3 +40,14 @@
     .star-rating .fa-star {
         color: yellow;
     }
+
+#itemCount {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4084D6;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}

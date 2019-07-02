@@ -119,6 +119,7 @@
     <Content Include="Imagenes\x.png" />
     <Content Include="Imagenes\z.jpg" />
     <Content Include="Imagenes\z.png" />
+    <Content Include="itemCount.js" />
     <Content Include="jeans3.jpg" />
     <Content Include="Login.aspx" />
     <Content Include="Login.css" />

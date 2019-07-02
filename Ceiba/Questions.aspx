@@ -13,7 +13,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="shortcut icon" href="/ceiba.ico" />
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="carrito.js"></script>
+    <script src="/carrito.js"></script>
+    <script src="/itemCount.js"></script> 
 </head>
 
 <body class="body">
@@ -37,6 +38,8 @@
                     </ul>
                     <a href="ShoppingCart.aspx" class="font-color" style="float: right !important;margin-top: 13px; margin-right:15px !important;">
                             <span class="glyphicon glyphicon-shopping-cart"></span></a>
+                    <a class="font-color" style="float: right !important; margin-top: 13px; margin-right: 20px !important;">
+                        <span class="itemCount" id="itemCount"></span></a>
                 </div>
             </div>
         </nav>
@@ -245,5 +248,11 @@
                 $('#count-existing').html(value);
             });
         });
+    </script>
+
+        <script>
+            $(document).ready(function () {
+                count();
+            });
     </script>
 </html>

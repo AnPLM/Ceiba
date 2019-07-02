@@ -1,37 +1,55 @@
-﻿var array = [];
-var product;
+﻿
+if (sessionStorage.getItem('data') == null) {
+    var array = [];
+} else {
+    var array = JSON.parse(sessionStorage.getItem('data'));
+}
 
+var product;
+var itemCount = sessionStorage.getItem('count');
 function add(a, b, c) {
+
+    var r = confirm("¿Desea agregar el producto " + a + " al carrito?");
+    if (r == true) {
     product = { nombre: a, imgage: b, precio: c };
     array.push(product);
-
+        itemCount++;
+        sessionStorage.setItem('count', itemCount);
+        $('#itemCount').html(itemCount).css('display', 'block');
     sessionStorage.setItem('data', JSON.stringify(array));
+    
+    }
 }
 
 function eliminar(a) {
-    alert('entra al metodo');
-    var n = JSON.parse(sessionStorage.getItem('data'));
-    array = [];
-    for (i = 0; i < array.length; i++) {
-        alert('inteta eliminar');
-        if (a != n[i].nombre) {
-            array.push(n[i]);
+    var r = confirm("¿Desea eliminar el producto " + a + "?");
+    if (r == true) {
+        var n = JSON.parse(sessionStorage.getItem('data'));
+        array = [];
+        for (i = 0; i < n.length; i++) {
+            if (a != n[i].nombre) {
+                array.push(n[i]);
+            }
         }
-    }
-    sessionStorage.setItem('data', JSON.stringify(array));
-    cargar();
+        itemCount--;
+        sessionStorage.setItem('count', itemCount);
+        $('#itemCount').html(itemCount).css('display', 'block');
+        sessionStorage.setItem('data', JSON.stringify(array));
+        cargar();
+    }     
 }
 
 text = "";
 
 function cargar() {
+
     var data = JSON.parse(sessionStorage.getItem('data'));
     var tot = 0;
     text = '';
     for (i = 0; i < data.length; i++) {
-
+        var nombre = data[i].nombre;
         var txt = '<tr>';
-        var bt = '<button onclick = "eliminar(' + data[i].nombre + ')" type="button" class="btn btn-warning" > Eliminar</button >';
+        var bt = '<button onclick = "eliminar(\'' + data[i].nombre +'\')" type="button" class="btn btn-warning" > Eliminar</button >';
         txt += '<th>' + data[i].nombre;
         txt += ' <img src="' + data[i].imgage + '"  class="img-responsive img-size" alt="Cinque Terre" width="130" height="130">' + '</th>';
         txt += '<th>' + data[i].nombre + '</th>';
@@ -62,3 +80,4 @@ function myFunction(value) {
     text += "<li>" + value.product.nombre + "</li>";
 } 
 window.onload = cargar();
+

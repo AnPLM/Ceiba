@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="/itemCount.js"></script> 
 </head>
 <body class="body">
     <header class="header">
@@ -36,6 +37,8 @@
                     </ul>
                     <a href="ShoppingCart.aspx" class="font-color" style="float: right !important; margin-top: 13px; margin-right: 15px !important;">
                         <span class="glyphicon glyphicon-shopping-cart"></span></a>
+                    <a class="font-color" style="float: right !important; margin-top: 13px; margin-right: 20px !important;">
+                        <span class="itemCount" id="itemCount"></span></a>
 
                 </div>
             </div>
@@ -123,5 +126,9 @@
     </footer>
 </body>
 
-
+      <script>
+        $(document).ready(function () {
+            count();
+        });
+    </script>
 </html>

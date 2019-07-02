@@ -53,15 +53,15 @@
                                         <th>Imagen</th>
                                         <th>Nombre</th>
                                         <th>Descripción</th>
-                                        <th>Cantidad</th>
                                         <th>Precio</th>
+                                        <th>Cantidad</th>
                                         <th>Opción</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>
-                                        <a class="thumbnail pull-left" href="#"> <img class="media-object" src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-2/72/product-icon.png" style="width: 72px; height: 72px;"> </a>
+                                        <a class="thumbnail pull-left" href="#"> <img class="media-object"  style="background: url(/Imagenes/iconpics.png); background-size: cover; width: 72px; height: 72px;"> </a>
                                         </td>
                                         <td> <div class=""><input type="text" class="form-control" placeholder="Nombre" id="usr" style="width:200px; margin-top:25px;"></div></td>
                                         <td><div class=""><input type="text" class="form-control" placeholder="Descripción" id="usr" style=" margin-top:25px;"></div></td>      
@@ -71,7 +71,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                        <a class="thumbnail pull-left" href="#"> <img class="media-object" src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-2/72/product-icon.png" style="width: 72px; height: 72px;"> </a>
+                                        <a class="thumbnail pull-left" href="#"> <img class="media-object" style="background: url(/Imagenes/iconpics.png); background-size: cover; width: 72px; height: 72px;"> </a>
                                         </td>
                                         <td> <div class=""><input type="text" class="form-control" placeholder="Nombre" id="usr" style="width:200px; margin-top:25px;"></div></td>
                                         <td><div class=""><input type="text" class="form-control" placeholder="Descripción" id="usr" style=" margin-top:25px;"></div></td>      
@@ -81,7 +81,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                        <a class="thumbnail pull-left" href="#"> <img class="media-object" src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-2/72/product-icon.png" style="width: 72px; height: 72px;"> </a>
+                                        <a class="thumbnail pull-left" href="#"> <img class="media-object" style="background: url(/Imagenes/iconpics.png); background-size: cover; width: 72px; height: 72px;"> </a>
                                         </td>
                                         <td> <div class=""><input type="text" class="form-control" placeholder="Nombre" id="usr" style="width:200px; margin-top:25px;"></div></td>
                                         <td><div class=""><input type="text" class="form-control" placeholder="Descripción" id="usr" style=" margin-top:25px;"></div></td>      

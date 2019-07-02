@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="/itemCount.js"></script> 
 </head>
 <body class="body">
     <nav class="navbar navbar-inverse">
@@ -22,7 +23,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand font-color" style="font-size: 28px;" href="#">Ceiba</a>
+                <a class="navbar-brand font-color" style="font-size: 28px;" href="Home.aspx">Ceiba</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
@@ -33,7 +34,8 @@
                 </ul>
                 <a href="ShoppingCart.aspx" class="font-color" style="float: right !important; margin-top: 13px; margin-right: 15px !important;">
                         <span class="glyphicon glyphicon-shopping-cart"></span></a>
-
+                <a class="font-color" style="float: right !important; margin-top: 13px; margin-right: 20px !important;">
+                        <span class="itemCount" id="itemCount"></span></a>
             </div>
         </div>
     </nav>
@@ -52,7 +54,7 @@
             <div class="col-sm-6  panel-2" style="background-color: lavenderblush; padding:0px;">
                 <iframe width="100%" height="345px" src="https://www.youtube.com/embed/p2EQLVvRziw"></iframe>
             </div>
-            <div class="col-sm-6 mission-panel" style="background-color: lavenderblush;">
+            <div class="col-sm-6 mission-panel panel-4" style="background-color: lavenderblush;">
                 <h2 class="font-style">Misión</h2>
                 <p class="font-style " style="font-size: 3.5vh;">
                     Ofrecer a nuestros clientes una amplia gama de especies en flora y productos de calidad, 
@@ -85,6 +87,11 @@
     </footer>
 </body>
 
+         <script>
+            $(document).ready(function () {
+                count();
+            });
+    </script>
 
 </html>
 

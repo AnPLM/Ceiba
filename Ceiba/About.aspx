@@ -6,12 +6,12 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Acerca</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/About.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="shortcut icon" href="/ceiba.ico" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link href="/About.css" rel="stylesheet" type="text/css" />
 </head>
 <body class="body">
     <nav class="navbar navbar-inverse">
@@ -79,7 +79,7 @@
         </div>
         <div style="color: white;" class="footer-copyright text-center py-3">
             © 2018 Copyright:
-    <a href="">Ceiba</a>
+    <a href="Home.aspx">Ceiba</a>
         </div>
 
     </footer>

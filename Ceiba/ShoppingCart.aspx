@@ -7,12 +7,13 @@
     <title>Ceiba</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src='/carrito.js'></script>
+    <link href="/Cart.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src='carrito.js'></script>
-    <link href="/Cart.css" rel="stylesheet" type="text/css" />
+    
 </head>
 <body>
     <header class="header">
@@ -38,7 +39,6 @@
                     </ul>
                     <a href="ShoppingCart.aspx" class="font-color" style="float: right !important; margin-top: 13px; margin-right: 15px !important;">
                         <span class="glyphicon glyphicon-shopping-cart"></span></a>
-    
                 </div>
             </div>
         </nav>
@@ -65,7 +65,7 @@
             <!--button onclick="cargar()"> Finalizar Compra </button-->
             <div class="row" style="text-align:center; justify-content: center;">
                 <div class="col-md-3" style=" margin-left: auto; margin-right: auto; float: none;">
-                    <a type="button" href="Home.aspx" class="btn btn-primary btn-responsive center-block margin-botton-panel" onClick="return confirm('¿Desea finalizar la compra?')">Finalizar Compra</a>
+                    <a type="button" href="Shop.html" class="btn btn-primary btn-responsive center-block margin-botton-panel" onClick="return confirm('¿Desea finalizar la compra?')">Finalizar Compra</a>
                 
                 </div>
             </div>

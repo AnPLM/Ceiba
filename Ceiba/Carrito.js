@@ -66,14 +66,14 @@ function cargar() {
 }
 function comprado() {
     array = [];
-    product = new product();
+    product = {};
     sessionStorage.clear();
-
     alert('Su compra ha sido exitosa');
+    location.replace("http://adnt1994-001-site1.btempurl.com/Home.aspx")
 }
 
 function endlist() {
-    location.replace("http://adnt1994-001-site1.btempurl.com/ShoppingCart.aspx")
+    location.replace("http://adnt1994-001-site1.btempurl.com/ShoppingCart.aspx");
 }
 
 function myFunction(value) {

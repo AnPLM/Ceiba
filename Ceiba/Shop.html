@@ -82,7 +82,7 @@
             <div class="card-body">
                 <div class="container-fluid">
                     <div class="">
-                        <form>
+                        <form action="Home.aspx" onsubmit="comprado();">
                             <input type='hidden' name='_token' value=''>
                             <div align="right">
                             </div>
@@ -137,38 +137,38 @@
                             <br>
                             <div class="row justify-content-center">
                                 <!--<div class="col-md-5 col-md-offset-1" style="margin-top:5px;">
-        <button class="btn btn-primary btn-block" onclick="comprado()" href="Home.aspx"> Efectuar Pago </button>
-    </div>-->
+                                    <button class="btn btn-primary btn-block" onclick="comprado()" href="Home.aspx"> Efectuar Pago </button>
+                                </div>-->
                                 <div class="col-md-5 col-md-offset-1" style="margin-top:5px;">
                                     <!--<div class="col-md-5 col-md-offset-1" style=" margin-left: auto; margin-right: auto; float: none;">-->
-                                    <a type="button" href="Home.aspx" class="btn btn-primary btn-responsive center-block margin-botton-panel" onClick="comprado()">Efectuar Pago</a>
+                                    <div class="btn btn-primary btn-responsive center-block margin-botton-panel" onclick="comprado()">
+                                        Efectuar Pago
+                                        <!--<button >-->
+                                    </div>
+                                    <!--a type="button" href="Home.aspx" class="btn btn-primary btn-responsive center-block margin-botton-panel" onClick="comprado()">Efectuar Pago</!--a>-->
                                 </div><div class="col-md-5 " style="margin-top:5px;">
-                                    <!--<div class="col-md-5 col-md-offset-1" style=" margin-left: auto; margin-right: auto; float: none;">-->
-                                    <a type="button" href="ShoppingCart.aspx" class="btn btn-danger btn-responsive center-block margin-botton-panel" onClick="endlist()">Cancelar</a>
+                                    <div class="btn btn-danger btn-responsive center-block margin-botton-panel">
+                                        <a type="button" href="ShoppingCart.aspx" class="btn btn-danger btn-responsive center-block margin-botton-panel" onClick="endlist()">Cancelar</a>
+
+                                    </div>
                                 </div>
-                                <!--<div class="col-md-5 " style="margin-top:5px;">
-        <a type="button" href="ShoppingCart.aspx" class="btn btn-danger btn-responsive center-block margin-botton-panel"</a>
-    </div>-->
-                                <!--<div class="col-md-5" style="margin-top:5px;">
-        <a type="button" href="ShoppingCart.aspx" onclick="endlist()" class="btn btn-danger btn-responsive center-block margin-botton-panel"</a>
-        <button class="btn btn-danger btn-block" onclick="endlist()"> Cancelar </button>
-    </div>-->
+
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
-            <div>
-                <br />
-                <div class="col-md-10 col-md-offset-1">
-                    <hr />
-                </div>
-                <br />
-                <div><br /></div>
-                <div><br /></div>
-                <br />
-                <br />
-            </div>
         </div>
-    </body>
-    </html>
+        <div>
+            <br />
+            <div class="col-md-10 col-md-offset-1">
+                <hr />
+            </div>
+            <br />
+            <div><br /></div>
+            <div><br /></div>
+            <br />
+            <br />
+        </div>
+    </div>
+</body>
+</html>

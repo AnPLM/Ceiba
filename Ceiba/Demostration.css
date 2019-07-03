@@ -1,0 +1,74 @@
+﻿.body {
+    background-color: #EFEFEF !important;
+}
+
+.navbar {
+    background: url(/Imagenes/Navbar2.png) no-repeat center;
+    border: 0;
+    font-size: 18px;
+    /*color: white;*/
+}
+
+.font-color {
+    color: white !important;
+}
+
+.about-panel {
+    background-color: /*#FFFFFF #FFF5EE */ #163244 !important;
+    min-height: 350px;
+    /*color: #173742 !important;*/
+    color: #FFF1DD !important;
+}
+
+.mission-panel {
+    background-color: #163244 !important;
+    min-height: 350px;
+    color: #FFF1DD !important;
+}
+
+.first-image {
+    height: 350px;
+}
+
+.font-style {
+    margin-top: 30px;
+    font-family: Amelia;
+    font-weight: 400;
+    text-align: center;
+}
+
+.panel-1 {
+    min-height: 350px !important;
+    background: url(/Imagenes/Demos.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    /*background-size: cover;*/
+}
+
+.panel-2 {
+    min-height: 350px !important;
+    /*background: url(/Imagenes/8.png);*/
+    background-size: cover;
+}
+
+.panel-4 {
+    min-height: 345px !important;
+    background-size: cover;
+}
+
+.about-panel {
+    min-height: 350px !important;
+}
+
+#itemCount {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4084D6;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}

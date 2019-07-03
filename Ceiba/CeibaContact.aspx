@@ -29,10 +29,11 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li><a class="font-color" href="Home.aspx">Productos</a></li>
                         <li><a class="font-color" href="About.aspx">Sobre nosotros</a></li>
+                        <li><a class="font-color" href="Demostration.aspx">Demostraciones</a></li>
                         <li><a class="font-color" href="Questions.aspx">Preguntas</a></li>
                         <li><a class="font-color" href="CeibaContact.aspx">Contacto</a></li>
+                         <li><a class="font-color" href="Login.aspx">Administrador</a></li>
                         
                     </ul>
                     <a href="ShoppingCart.aspx" class="font-color" style="float: right !important; margin-top: 13px; margin-right: 15px !important;">

@@ -52,6 +52,7 @@
     font-family: Amelia;
     text-align: center;
     font-size: 20px;
+    color: black !important;
 }
 
 .footer {
@@ -80,27 +81,27 @@
     cursor: pointer;
 }
 
-.btn {
+.btn-search {
     background-color: white;
     color: black;
     /*border: 2px solid #4CAF50;*/
 }
 
-    .btn:hover {
-        /*background-color: #4CAF50;*/
-        color: white;
-    } 
-/*
+
+
+.button-style:hover {
+    background-color: #3B3B3B !important;
+    color: white !important;
+} 
+
 .button-style {
-    /*  background-color:#002052 !important;
-    border: 0px;*/
-        /* background-color: #96183a;*/
-        /*background-color: #1e8449;
+     background-color:#002052 !important;
+    border: 0px;
     border: none;
     color: white !important;
-    /*font-weight:bold;*/
-        /* font-size: 15px;
-} */
+    font-weight:bold;
+    font-size: 15px;
+} 
         .background-1 {
     background-image: url(/Imagenes/complementos.png) !important;
     background-attachment: fixed;
@@ -180,5 +181,17 @@
     search-center {
         display: none !important;
     }
+}
+
+#itemCount {
+    position: absolute;
+    
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4084D6;
+    color: white;
+    text-align: center;
+    font-size:14px;
 }
 

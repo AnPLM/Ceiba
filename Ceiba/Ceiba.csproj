@@ -70,10 +70,64 @@
     <Content Include="Contact.css" />
     <Content Include="Home.aspx" />
     <Content Include="Home.css" />
+    <Content Include="Imagenes\11.jpg" />
+    <Content Include="Imagenes\112.jpg" />
+    <Content Include="Imagenes\12.png" />
+    <Content Include="Imagenes\8.jpg" />
+    <Content Include="Imagenes\8.png" />
+    <Content Include="Imagenes\Abono1.png" />
+    <Content Include="Imagenes\Abono2.png" />
+    <Content Include="Imagenes\Abono6.png" />
+    <Content Include="Imagenes\arreglos.png" />
+    <Content Include="Imagenes\background2.jpg" />
+    <Content Include="Imagenes\background3.png" />
+    <Content Include="Imagenes\background4.png" />
+    <Content Include="Imagenes\backgroundstatic1.jpg" />
+    <Content Include="Imagenes\Carousel1.png" />
+    <Content Include="Imagenes\Carousel2.png" />
+    <Content Include="Imagenes\Carousel3.png" />
+    <Content Include="Imagenes\CatusGloboso.jpg" />
+    <Content Include="Imagenes\complementos.png" />
+    <Content Include="Imagenes\cueroauténtico.png" />
+    <Content Include="Imagenes\Flor4.jpg" />
+    <Content Include="Imagenes\Flor5.jpg" />
+    <Content Include="Imagenes\Flor6.jpg" />
+    <Content Include="Imagenes\Foto 29-5-19 7 10 38 p. m..jpg" />
+    <Content Include="Imagenes\Ginura.jpg" />
+    <Content Include="Imagenes\herramienta1.png" />
+    <Content Include="Imagenes\herramienta2.png" />
+    <Content Include="Imagenes\herramienta3.png" />
+    <Content Include="Imagenes\Inicio.JPG" />
+    <Content Include="Imagenes\jaja.jpg" />
+    <Content Include="Imagenes\lila.jpg" />
+    <Content Include="Imagenes\Logo.PNG" />
+    <Content Include="Imagenes\Logo1.png" />
+    <Content Include="Imagenes\Navbar.png" />
+    <Content Include="Imagenes\Navbar2.png" />
+    <Content Include="Imagenes\peque1.jpg" />
+    <Content Include="Imagenes\peque2.jpg" />
+    <Content Include="Imagenes\peque3.jpg" />
+    <Content Include="Imagenes\Prueba.png" />
+    <Content Include="Imagenes\Ro1.jpg" />
+    <Content Include="Imagenes\Ro2.jpg" />
+    <Content Include="Imagenes\Ro3.jpg" />
+    <Content Include="Imagenes\Rosas1.png" />
+    <Content Include="Imagenes\Rosas2.png" />
+    <Content Include="Imagenes\Rosas3.png" />
+    <Content Include="Imagenes\SobreNosotros.png" />
+    <Content Include="Imagenes\Suculenta.jpg" />
+    <Content Include="Imagenes\x.png" />
+    <Content Include="Imagenes\z.jpg" />
+    <Content Include="Imagenes\z.png" />
+    <Content Include="itemCount.js" />
     <Content Include="jeans3.jpg" />
+    <Content Include="Login.aspx" />
+    <Content Include="Login.css" />
     <Content Include="Questions.aspx" />
     <Content Include="Questions.css" />
     <Content Include="Shop.html" />
+    <Content Include="ShopManage.aspx" />
+    <Content Include="ShopManage.css" />
     <Content Include="ShoppingCart.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -106,6 +160,13 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Questions.aspx.cs">
       <DependentUpon>Questions.aspx</DependentUpon>
@@ -113,6 +174,13 @@
     </Compile>
     <Compile Include="Questions.aspx.designer.cs">
       <DependentUpon>Questions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShopManage.aspx.cs">
+      <DependentUpon>ShopManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShopManage.aspx.designer.cs">
+      <DependentUpon>ShopManage.aspx</DependentUpon>
     </Compile>
     <Compile Include="ShoppingCart.aspx.cs">
       <DependentUpon>ShoppingCart.aspx</DependentUpon>
@@ -123,6 +191,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ceiba.ico" />
     <None Include="Properties\PublishProfiles\Default Settings.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

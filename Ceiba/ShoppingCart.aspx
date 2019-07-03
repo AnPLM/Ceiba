@@ -7,16 +7,18 @@
     <title>Ceiba</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <script src='/carrito.js'></script>
+    <script src='/itemCount.js'></script>
+    <link href="/Cart.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src='carrito.js'></script>
-    <link href="/Cart.css" rel="stylesheet" type="text/css" />
+    
 </head>
 <body>
     <header class="header">
-        <nav class="navbar navbar-inverse navbar-fixed-top">
+        <nav class="navbar navbar-inverse ">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -38,18 +40,14 @@
                     </ul>
                     <a href="ShoppingCart.aspx" class="font-color" style="float: right !important; margin-top: 13px; margin-right: 15px !important;">
                         <span class="glyphicon glyphicon-shopping-cart"></span></a>
-    
+                    <a class="font-color" style="float: right !important; margin-top: 13px; margin-right: 20px !important;">
+                        <span class="itemCount" id="itemCount"></span></a>
                 </div>
             </div>
         </nav>
         <br />
         <br />
-        <br />
-        <br />
-        <br />
 
-        <br />
-        <br />
 
     </header>
 
@@ -62,15 +60,19 @@
                         <th>Nombre</th>
                         <th>Descripcion</th>
                         <th>Precio</th>
+                        <th>Opciones</th>
                     </tr>
                 </thead>
                 <tbody id="list"></tbody>
             </table>
             <p id="tot" class="text-right"><span id="total"></span></p>
             <!--button onclick="cargar()"> Finalizar Compra </button-->
-            <div class="col-md-3" style="margin:auto;">
-                <a type="button" href="Home.aspx" class="btn btn-primary btn-responsive center-block margin-botton-panel" onClick="return confirm('Desea finalizar la compra?')">Finalizar Compra</a>
-           </div>
+            <div class="row" style="text-align:center; justify-content: center;">
+                <div class="col-md-3" style=" margin-left: auto; margin-right: auto; float: none;">
+                    <a type="button" href="Shop.html" class="btn btn-primary btn-responsive center-block margin-botton-panel" onClick="return confirm('¿Desea finalizar la compra?')">Finalizar Compra</a>
+                
+                </div>
+            </div>
             <a href="Shop.html">
             </a>
         </div>
@@ -87,6 +89,12 @@
     </div>
 
     <script src='/carrito.js'></script>
-    <script src='carrito.js'></script>
+    <!--<script src='carrito.js'></script>-->
 </body>
+
+        <script>
+        $(document).ready(function () {
+            count();
+        });
+        </script>
 </html>

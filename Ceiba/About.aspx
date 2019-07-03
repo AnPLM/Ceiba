@@ -6,11 +6,13 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Acerca</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="/About.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="shortcut icon" href="/ceiba.ico" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link href="/About.css" rel="stylesheet" type="text/css" />
+    <script src="/itemCount.js"></script> 
 </head>
 <body class="body">
     <nav class="navbar navbar-inverse">
@@ -21,7 +23,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand font-color" style="font-size: 28px;" href="#">Ceiba</a>
+                <a class="navbar-brand font-color" style="font-size: 28px;" href="Home.aspx">Ceiba</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
@@ -30,19 +32,10 @@
                     <li><a class="font-color" href="Questions.aspx">Preguntas</a></li>
                     <li><a class="font-color" href="CeibaContact.aspx">Contacto</a></li>
                 </ul>
-                <div class="float-right">
-                    <form class="navbar-form navbar-left" action="/action_page.php">
-                        <div class="input-group ">
-                            <input type="text" class="form-control " placeholder="Search" name="search">
-                            <div class="input-group-btn">
-                                <button class="btn btn-default" type="submit">
-                                    <i class="glyphicon glyphicon-search"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-
+                <a href="ShoppingCart.aspx" class="font-color" style="float: right !important; margin-top: 13px; margin-right: 15px !important;">
+                        <span class="glyphicon glyphicon-shopping-cart"></span></a>
+                <a class="font-color" style="float: right !important; margin-top: 13px; margin-right: 20px !important;">
+                        <span class="itemCount" id="itemCount"></span></a>
             </div>
         </div>
     </nav>
@@ -61,7 +54,7 @@
             <div class="col-sm-6  panel-2" style="background-color: lavenderblush; padding:0px;">
                 <iframe width="100%" height="345px" src="https://www.youtube.com/embed/p2EQLVvRziw"></iframe>
             </div>
-            <div class="col-sm-6 mission-panel" style="background-color: lavenderblush;">
+            <div class="col-sm-6 mission-panel panel-4" style="background-color: lavenderblush;">
                 <h2 class="font-style">Misión</h2>
                 <p class="font-style " style="font-size: 3.5vh;">
                     Ofrecer a nuestros clientes una amplia gama de especies en flora y productos de calidad, 
@@ -88,12 +81,17 @@
         </div>
         <div style="color: white;" class="footer-copyright text-center py-3">
             © 2018 Copyright:
-    <a href="">Ceiba</a>
+    <a href="Home.aspx">Ceiba</a>
         </div>
 
     </footer>
 </body>
 
+         <script>
+            $(document).ready(function () {
+                count();
+            });
+    </script>
 
 </html>
 

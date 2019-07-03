@@ -9,13 +9,9 @@
     <meta charset="utf-8"/>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="carrito.js"></script>
-    <link href="/Home.css" rel="stylesheet" type="text/css" />
-    <link href="/Cart.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="/ceiba.ico" />
+    <script src="/carrito.js"></script> 
+    <script src="/itemCount.js"></script> 
 
     <style>
         #map {
@@ -36,6 +32,14 @@
             }
         }
     </style>
+     <link rel="stylesheet" type="text/css" href="Home.css" />
+    <link rel="stylesheet" type="text/css" href="Cart.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+   
+
 </head>
 <body class="body">
 
@@ -64,24 +68,14 @@
                         <li><a class="font-color" href="About.aspx">Sobre nosotros</a></li>
                         <li><a class="font-color" href="Questions.aspx">Preguntas</a></li>
                         <li><a class="font-color" href="CeibaContact.aspx">Contacto</a></li>
-                        <!--<li><a href="ShoppingCart.aspx" class="font-color" style="float: right !important;">
-                            <span class="glyphicon glyphicon-shopping-cart"></span></a>
-                        </li>-->
+                         <li><a class="font-color" href="Login.aspx">Administrador</a></li>
+               
                     </ul>
-                    <a href="ShoppingCart.aspx" class="font-color" style="float: right !important; margin-top: 13px; margin-right: 15px !important;">
+                    <a href="ShoppingCart.aspx" class="font-color" style="float: right !important; margin-top: 13px; margin-right: 20px !important;">
                         <span class="glyphicon glyphicon-shopping-cart"></span></a>
-                    <div class="search-nav" style="position: absolute; right: 10px;">
-                        <form class="navbar-form navbar-left" action="/action_page.php">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search" name="search"/>
-                                <div class="input-group-btn">
-                                    <button class="btn btn-default" type="submit">
-                                        <i class="glyphicon glyphicon-search"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+                    <a class="font-color" style="float: right !important; margin-top: 13px; margin-right: 20px !important;">
+                        <span class="itemCount" id="itemCount"></span></a>
+                    
                 </div>
             </div>
         </nav>
@@ -98,12 +92,12 @@
         <br />
         <br />
         <div class="col-md-6 col-md-offset-3 search-center">
-            <form class="search-center" action="/action_page.php">
+            <form class="search-center" action="" method="post">
                 <div class="search-center" id="custom-search-input">
                     <div class="search-center input-group col-md-12">
-                        <input type="text" class="form-control input-lg" placeholder="Buscar" />
+                        <input type="text" id="searchT" class="form-control input-lg" placeholder="Buscar" />
                         <span class="input-group-btn">
-                            <button class="btn btn-default btn-lg" type="button">
+                            <button class="btn btn-default btn-lg" onclick="search()" type="button">
                                 <i class="glyphicon glyphicon-search"></i>
                             </button>
                         </span>
@@ -126,7 +120,7 @@
                 <p class="description-products">Cactus verde con flores blancas</p>
                 <p class="price">₡3500</p>
                 <div class="text-center">
-                    <button onclick="add('Cactus verde con flores blancas', '/Imagenes/CatusGloboso.jpg','3500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button>
+                    <button onclick="add('Cactus verde con flores blancas', '/Imagenes/CatusGloboso.jpg','3500')" type="button" class="btn btn-primary button-style btn-add">Añadir al carrito</button>
                 </div>
             </div>
 
@@ -136,7 +130,7 @@
                 <p class="description-products">Suculenta verde claro</p>
                 <p class="price">₡3500</p>
                 <div class="text-center">
-                    <button onclick="add('Suculenta verde claro', '/Imagenes/Suculenta.jpg', '3500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button>
+                    <button onclick="add('Suculenta verde claro', '/Imagenes/Suculenta.jpg', '3500')" type="button" class="btn btn-primary button-style btn-add">Añadir al carrito</button>
                 </div>
             </div>
 
@@ -146,7 +140,7 @@
                 <p class="description-products">Ginura marrón con pintas negras</p>
                 <p class="price">₡3500</p>
                 <div class="text-center">
-                    <button onclick="add('Ginura marron con pintas negras','/Imagenes/Ginura.jpg','3500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button>
+                    <button onclick="add('Ginura marron con pintas negras','/Imagenes/Ginura.jpg','3500')" type="button" class="btn btn-primary button-style btn-add">Añadir al carrito</button>
                 </div>
             </div>
         </div>
@@ -158,7 +152,7 @@
                 <p class="description-products">Cactus verde con flores blancas</p>
                 <p class="price">₡3500</p>
                 <div class="text-center">
-                    <button onclick="add('Cactus verde con flores blancas','/Imagenes/peque1.jpg', '3500' )" type="button" class="btn btn-primary button-style">Añadir al carrito</button>
+                    <button onclick="add('Cactus verde con flores blancas','/Imagenes/peque1.jpg', '3500' )" type="button" class="btn btn-primary button-style btn-add">Añadir al carrito</button>
                 </div>
             </div>
 
@@ -168,7 +162,7 @@
                 <p class="description-products">Suculenta rosado claro</p>
                 <p class="price">₡3500</p>
                 <div class="text-center">
-                    <button onclick="add('Suculenta rosado claro','/Imagenes/peque2.jpg','3500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button>
+                    <button onclick="add('Suculenta rosado claro','/Imagenes/peque2.jpg','3500')" type="button" class="btn btn-primary button-style btn-add">Añadir al carrito</button>
                 </div>
             </div>
 
@@ -179,7 +173,7 @@
                 <p class="description-products">Ginura marrón con pintas negras</p>
                 <p class="price">₡3500</p>
                 <div class="text-center">
-                    <button onclick="add('Ginura Marron con pintas negras','/Imagenes/peque3.jpg','3500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button>
+                    <button onclick="add('Ginura Marron con pintas negras','/Imagenes/peque3.jpg','3500')" type="button" class="btn btn-primary button-style btn-add">Añadir al carrito</button>
                 </div>
             </div>
         </div>
@@ -274,6 +268,7 @@
             </div>
         <br/>
         <div class="row">
+            <a name="abono"></a>
             <div class="col-sm-4">
                 <h2 class="font-style">Abono en trozos</h2>
                 <img src="/Imagenes/Abono1.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
@@ -283,7 +278,7 @@
                     <button onclick="add('Abono en trozos grandes','/Imagenes/Abono1.png','5500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button>
                 </div>
             </div>
-
+            
             <div class="col-sm-4">
                 <h2 class="font-style">Abono orgánico</h2>
                 <img src="/Imagenes/Abono6.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
@@ -293,7 +288,7 @@
                     <button onclick="add('Saco de abono organico','/Imagenes/Abono6.png','12000')" type="button" class="btn btn-primary button-style">Añadir al carrito</button>
                 </div>
             </div>
-
+           
             <div class="col-sm-4">
                 <h2 class="font-style">Abono molido</h2>
                 <img src="/Imagenes/Abono2.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
@@ -305,7 +300,9 @@
             </div>
         </div>
         <br/>
+         
         <br/>
+       
         <div class="row">
             <div class="col-sm-4">
                 <h2 class="font-style">Carretillo</h2>
@@ -316,7 +313,7 @@
                     <button onclick="add('Carretillo Celeste','/Imagenes/herramienta1.png','5500')" type="button" class="btn btn-primary button-style">Añadir al carrito</button>
                 </div>
             </div>
-
+             <a name="herramientas"></a>
             <div class="col-sm-4">
                 <h2 class="font-style">Palillas de jardinería</h2>
                 <img src="/Imagenes/herramienta2.png" class="img-responsive img-size" alt="Cinque Terre" width="304" height="236"/>
@@ -397,6 +394,33 @@
 
     </footer>
 </body>
+    <script>
+        $(document).ready(function () {
+            count();
+        });
 
+        function search() {
+            var search = document.getElementById("searchT").value;
+            search = search.toUpperCase();
 
+            if ((search.match(/FLO.*/)) || (search.match(/ARRE.*/)) || (search.match(/FLO.*/))
+                || (search.match(/ROS.*/)) || (search.match(/ROSAS .*/))) {
+                location.href = "#arreglos";
+            } else if ((search.match(/ABO.*/)) || (search.match(/FERTI.*/))) {
+                location.href = "#abono";
+            } else if ((search.match(/CARRE.*/)) || (search.match(/PALILL.*/)) || (search.match(/GUANT.*/))
+                || (search.match(/HERRA.*/)) || (search.match(/UTENC.*/))) {
+                location.href = "#herramientas";
+            } else if ((search.match(/ADOR.*/)) || (search.match(/ADORNOS .*/)) || (search.match(/SUCULENTA.*/))
+                || (search.match(/SUCULENTA .*/)) || (search.match(/PLANTAS.*/)) || (search.match(/PANTAS .*/))
+                || (search.match(/CACTUS .*/)) || (search.match(/CACT.*/)) || (search.match(/GIRUNA.*/))
+                || (search.match(/DRÁC.*/)) || (search.match(/ARE.*/))) {
+                location.href = "#tema1";
+            } else {
+                alert("Objeto no encontrado");
+            }
+            
+            
+        }
+    </script>
 </html>

@@ -38,7 +38,7 @@
 }
 
 .panel-1 {
-    min-height: 350px;
+    min-height: 350px !important;
     background: url(/Imagenes/Logo.png);
     background-repeat:no-repeat;
     background-position:center;
@@ -47,7 +47,28 @@
 }
 
 .panel-2 {
-    min-height: 350px;
+    min-height: 350px !important;
     /*background: url(/Imagenes/8.png);*/
-    /*background-size: cover;*/
+    background-size: cover;
+}
+
+.panel-4 {
+    min-height: 345px !important;
+    
+    background-size: cover;
+}
+
+.about-panel {
+    min-height: 350px !important;
+}
+
+#itemCount {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4084D6;
+    color: white;
+    text-align: center;
+    font-size: 14px;
 }

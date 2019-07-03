@@ -4,14 +4,16 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Contacto</title>
+    <link rel="shortcut icon" href="/ceiba.ico" />
+    <link href="/Contact.css" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link href="/Contact.css" rel="stylesheet" type="text/css" />
+    <script src="/itemCount.js"></script> 
 </head>
 <body class="body">
     <header class="header">
@@ -27,35 +29,16 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-
-                        <li class="dropdown">
-                            <a style="" class="dropdown-toggle font-color" data-toggle="dropdown" href="#">Productos<span class="caret"></span></a>
-                            <ul style="background-color: black; color: black" class="dropdown-menu ">
-                                <li><a class="dropdown-item" style="color: #FFFFFF" href="#tema1">Plantas pequeñas</a></li>
-                                <li><a class="dropdown-item" style="color: #FFFFFF" href="#arreglos">Arreglos</a></li>
-                                <li><a class="dropdown-item" style="color: #FFFFFF" href="#complementos">Complementos</a></li>
-                            </ul>
-                        </li>
+                        <li><a class="font-color" href="Home.aspx">Productos</a></li>
                         <li><a class="font-color" href="About.aspx">Sobre nosotros</a></li>
-                        <li><a class="font-color" href="#">Preguntas</a></li>
+                        <li><a class="font-color" href="Questions.aspx">Preguntas</a></li>
                         <li><a class="font-color" href="CeibaContact.aspx">Contacto</a></li>
-                        <li><a href="ShoppingCart.aspx" class="font-color">
-                            <span class="glyphicon glyphicon-shopping-cart"></span>Shopping Cart
-                        </a>
-                        </li>
+                        
                     </ul>
-                    <div style="position: absolute; right: 10px;">
-                        <form class="navbar-form navbar-left" action="/action_page.php">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Search" name="search">
-                                <div class="input-group-btn">
-                                    <button class="btn btn-default" type="submit">
-                                        <i class="glyphicon glyphicon-search"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+                    <a href="ShoppingCart.aspx" class="font-color" style="float: right !important; margin-top: 13px; margin-right: 15px !important;">
+                        <span class="glyphicon glyphicon-shopping-cart"></span></a>
+                    <a class="font-color" style="float: right !important; margin-top: 13px; margin-right: 20px !important;">
+                        <span class="itemCount" id="itemCount"></span></a>
 
                 </div>
             </div>
@@ -143,5 +126,9 @@
     </footer>
 </body>
 
-
+      <script>
+        $(document).ready(function () {
+            count();
+        });
+    </script>
 </html>

@@ -1,0 +1,18 @@
+﻿.navbar {
+    background: url(/Imagenes/Navbar2.png) no-repeat center;
+    border: 0;
+    font-size: 18px;
+   
+}
+
+.font-color {
+    color: white !important;
+}
+
+.body {
+    background: #EFEFEF; /* fallback for old browsers */
+}
+
+.bg-color-panel {
+    background-color: #DEDEE3 !important;
+}

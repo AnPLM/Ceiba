@@ -2,24 +2,19 @@
     background-color: #EFEFEF !important;
 }
 
-.navbar {
-    background: url(/Imagenes/Navbar2.png) no-repeat center;
-    border: 0;
-    font-size: 18px;
-    /*color: white;*/
-}
-
 .font-color {
     color: white !important;
 }
+
 .col-sm-6 {
     min-height: 600px;
-    
 }
+
 .navbar {
     background: url(/Imagenes/Navbar2.png) no-repeat center;
     border: 0;
     font-size: 18px;
+
     /*color: white;*/
 }
 
@@ -45,28 +40,46 @@
     font-size: 3vh;
     font-size: 15px;
     color: black;
-    /*color: #4A4A4A;*/
 }
-
-/*.panel-heading border-header bg-color-panel {
-    background-color: #F5F5F5 !important;
-    border-color: lightgrey;
-}*/
 
 
 
 .info {
-    padding:35px;
-    text-align:center;
+    padding: 35px;
+    text-align: center;
 }
 
-#itemCount {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background: #4084D6;
-    color: white;
-    text-align: center;
-    font-size: 14px;
+.body {
+    background: url(/Imagenes/x.png) no-repeat center;
+    background-size: cover;
+    min-height: 90vh;
 }
+
+
+.login-form {
+   
+    
+    margin-top: 100px;
+}
+
+    .login-form form {
+        margin-bottom: 15px;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+
+    .login-form h2 {
+        margin: 0 0 15px;
+    }
+
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+
+.btn {
+    font-size: 15px;
+    font-weight: bold;
+}
+

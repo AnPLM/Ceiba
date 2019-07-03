@@ -68,6 +68,9 @@
     <Content Include="CeibaContact.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Contact.css" />
+    <Content Include="Demostration.aspx" />
+    <Content Include="Demostration.css" />
+    <Content Include="DemostrationProducts.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Home.css" />
     <Content Include="Imagenes\11.jpg" />
@@ -152,6 +155,20 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demostration.aspx.cs">
+      <DependentUpon>Demostration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demostration.aspx.designer.cs">
+      <DependentUpon>Demostration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DemostrationProducts.aspx.cs">
+      <DependentUpon>DemostrationProducts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DemostrationProducts.aspx.designer.cs">
+      <DependentUpon>DemostrationProducts.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>

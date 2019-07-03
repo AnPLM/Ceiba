@@ -66,6 +66,7 @@
                             </ul>
                         </li>
                         <li><a class="font-color" href="About.aspx">Sobre nosotros</a></li>
+                        <li><a class="font-color" href="Demostration.aspx">Demostraciones</a></li>
                         <li><a class="font-color" href="Questions.aspx">Preguntas</a></li>
                         <li><a class="font-color" href="CeibaContact.aspx">Contacto</a></li>
                          <li><a class="font-color" href="Login.aspx">Administrador</a></li>

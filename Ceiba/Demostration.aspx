@@ -1,21 +1,23 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="Ceiba.About" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Demostration.aspx.cs" Inherits="Ceiba.Demostration" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Acerca</title>
-    <link href="/About.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Demostraciones</title>
+    <link href="/Demostration.css" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="shortcut icon" href="/ceiba.ico" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script src="/itemCount.js"></script> 
+    <script src="/itemCount.js"></script>
+   
+
 </head>
 <body class="body">
-    <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -43,25 +45,38 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6 about-panel" style="background-color: lavender;">
-                <h2 class="font-style">Acerca de nosotros</h2>
+                <h2 class="font-style">Demosración de productos</h2>
                 <p class="font-style " style="font-size: 3.5vh;">
-                    Somos una empresa dedicada a la venta de diferentes tipos de especies de flora que existen en el país, 
-                        nuestra finalidad es que los clientes puedan adquirir gran variedad de plantas exclusivas y llamativas
+                    Contamos con vídeos donde nuestro clientes pueden ver cómo se utilizan algunos de nuestros poductos y, de
+                    esta forma, sacar un mejor provecho de ellos.
                 </p>
             </div>
             <div class="col-sm-6 panel-1" ></div>
         </div>
         <div class="row">
             <div class="col-sm-6  panel-2" style="background-color: lavenderblush; padding:0px;">
-                <iframe width="100%" height="345px" src="https://www.youtube.com/embed/p2EQLVvRziw"></iframe>
+                <iframe width="100%" height="345px" src="https://www.youtube.com/embed/RcGHdhxL7BI"></iframe>
             </div>
             <div class="col-sm-6 mission-panel panel-4" style="background-color: lavenderblush;">
-                <h2 class="font-style">Misión</h2>
+                <h2 class="font-style">Tijeras para podar</h2>
                 <p class="font-style " style="font-size: 3.5vh;">
-                    Ofrecer a nuestros clientes una amplia gama de especies en flora y productos de calidad, 
-                                exclusivos y al mejor precio que les permita embellecer sus hogares y jardines.
+                    Esta herramienta es de suma utilidad en nuestros jardines para podar las plantas sin  
+                    dañarlas y resguardar la seguridad de las personas.
                 </p>
             </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 mission-panel panel-4" style="background-color: lavenderblush;">
+                <h2 class="font-style">Abonos</h2>
+                <p class="font-style " style="font-size: 3.5vh;">
+                    Los abonos son necesarios para que las plantas crezcan con fuerza, absorban nutrientes y puedan mantenerse
+                     saludables.
+                </p>
+            </div>
+            <div class="col-sm-6  panel-2" style="background-color: lavenderblush; padding:0px;">
+                <iframe width="100%" height="345px" src="https://www.youtube.com/embed/A8Wsi3ZU8qs"></iframe>
+            </div>
+            
         </div>
         
         <br />
@@ -87,12 +102,4 @@
 
     </footer>
 </body>
-
-         <script>
-            $(document).ready(function () {
-                count();
-            });
-    </script>
-
 </html>
-

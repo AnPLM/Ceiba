@@ -8,7 +8,8 @@
     <title>Acerca</title>
     <link href="/About.css" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="shortcut icon" href="/ceiba.ico" />
+    <!--link rel="shortcut icon" href="/ceiba.ico" /-->
+    <link rel="icon" type="image/png" href="/Imagenes/Prueba2.png" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -23,7 +24,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand font-color" style="font-size: 28px;" href="Home.aspx">Ceiba</a>
+                <img src="/Imagenes/Prueba2.png" width="45px" height="50px"/>
+                    <a class="navbar-brand font-color" style="font-size: 28px; float:right" href="Home.aspx">Ceiba</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
@@ -71,18 +73,14 @@
         <div class="container-fluid text-center text-md-left" style="color: white;">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
-                    <h5 style="font-size: 18px; margin-top: 50px; color: white;">Gracias por visitar nuestro sitio</h5>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil
-          repudiandae commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae
-          harum esse fugiat. Itaque, culpa?
-                    </p>
+                    <h5 style="font-size: 18px; margin-top: 30px; color: white;">Gracias por visitar nuestro sitio</h5>
+                    <h5 style="font-size: 18px; margin-top: 10px; color: white;">Búscanos en nuestras redes sociales</h5>
+                        <img src="/Imagenes/social.png" width="190px" height="110px"/>
                 </div>
             </div>
         </div>
         <div style="color: white;" class="footer-copyright text-center py-3">
-            © 2018 Copyright:
-    <a href="Home.aspx">Ceiba</a>
+    <h5>Ceiba 2019</h5>
         </div>
 
     </footer>

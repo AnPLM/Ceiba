@@ -9,6 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src='/carrito.js'></script>
     <script src='/itemCount.js'></script>
+    <!--link rel="shortcut icon" href="/ceiba.ico" /-->
+    <link rel="icon" type="image/png" href="/Imagenes/Prueba2.png" />
     <link href="/Cart.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
@@ -26,7 +28,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand font-color" style="font-size: 28px;" href="Home.aspx">Ceiba</a>
+                    <img src="/Imagenes/Prueba2.png" width="45px" height="50px"/>
+                    <a class="navbar-brand font-color" style="font-size: 28px; float:right" href="Home.aspx">Ceiba</a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">

@@ -5,6 +5,15 @@ if (sessionStorage.getItem('data') == null) {
     var array = JSON.parse(sessionStorage.getItem('data'));
 }
 
+function finish() {
+    //alert('entra al metodo');
+    if (sessionStorage.getItem('data') == null) {
+        alert('No tiene productos en el carrito de compras');
+    } else {
+    location.replace("http://adnt1994-001-site1.btempurl.com/Shop.html")
+    }
+}
+
 var product;
 var itemCount = sessionStorage.getItem('count');
 function add(a, b, c) {

@@ -5,16 +5,16 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Ceiba</title>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src='/carrito.js'></script>
     <script src='/itemCount.js'></script>
     <link href="/Cart.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    
+
 </head>
 <body>
     <header class="header">
@@ -34,7 +34,7 @@
                         <li><a class="font-color" href="Demostration.aspx">Demostraciones</a></li>
                         <li><a class="font-color" href="Questions.aspx">Preguntas</a></li>
                         <li><a class="font-color" href="CeibaContact.aspx">Contacto</a></li>
-                         <li><a class="font-color" href="Login.aspx">Administrador</a></li>
+                        <li><a class="font-color" href="Login.aspx">Administrador</a></li>
                         <!--<li><a href="ShoppingCart.aspx" class="font-color" style="float: right !important;">
                             <span class="glyphicon glyphicon-shopping-cart"></span></a>
                         </li>-->
@@ -56,7 +56,7 @@
         <div class="col-md-8 col-md-offset-2">
             <h2>Carrito de Compras</h2>
             <table class="table table-bordered table-responsive-md table-striped text-center" id="tablaCarrito">
-                <thead class="header-table" >
+                <thead class="header-table">
                     <tr>
                         <th>Nombre</th>
                         <th>Descripcion</th>
@@ -65,17 +65,44 @@
                     </tr>
                 </thead>
                 <tbody id="list"></tbody>
+
+                <tr>
+                    <th>
+                        <div class="col-lg-4 col-md-4 col-md-offset-2">
+                            <h2 class="display-4">Total</h2>
+                        </div>
+                    </th>
+                    <th></th>
+                    <th>
+                        <div>
+                            <h3 id="tot" class="text-center"><span id="total"></span></h3>
+                        </div>
+                    </th>
+                </tr>
             </table>
-            <p id="tot" class="text-right"><span id="total"></span></p>
-            <!--button onclick="cargar()"> Finalizar Compra </button-->
-            <div class="row" style="text-align:center; justify-content: center;">
-                <div class="col-md-3" style=" margin-left: auto; margin-right: auto; float: none;">
-                    <a type="button" href="Shop.html" class="btn btn-primary btn-responsive center-block margin-botton-panel" onClick="return confirm('¿Desea finalizar la compra?')">Finalizar Compra</a>
-                
+            <div>
+
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <div>
+                    <div class="row" style="text-align: center; justify-content: center;">
+                        <!--<div class="col-md-3" style="margin-left: auto; margin-right: auto; float: none;">-->
+                           <!-- <a type="button" href="Shop.html" class="btn btn-primary btn-responsive center-block margin-botton-panel" onclick="return confirm('¿Desea finalizar la compra?')">Finalizar Compra</a>
+                        </div>-->
+                        <div class="text-center">
+                            <button onclick="finish()" type="button" class="btn btn-primary button-style btn-add">Finalizar</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <a href="Shop.html">
-            </a>
         </div>
     </div>
     <div class="col-md-10 col-md-offset-1">
@@ -93,9 +120,9 @@
     <!--<script src='carrito.js'></script>-->
 </body>
 
-        <script>
-        $(document).ready(function () {
-            count();
-        });
-        </script>
+<script>
+    $(document).ready(function () {
+        count();
+    });
+</script>
 </html>
